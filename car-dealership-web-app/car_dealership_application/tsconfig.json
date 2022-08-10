@@ -1,0 +1,36 @@
+// https://stackoverflow.com/questions/63462715/bootstrap4-typingsindex-d-ts-cannot-find-module-popper-js-on-visualstudio-20
+{
+  "compilerOptions": {
+    // Setting type checking strictness
+    // Source: https://www.carlrippon.com/controlling-type-checking-strictness-in-typescript/
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noEmit": false,
+    "noEmitOnError": false,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ES6",
+    "lib": [
+      //"ES2016",
+      "DOM",
+      "ES6",
+      //"ES5"
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "outDir": "wwwroot/js",
+    "esModuleInterop": true,
+    "module": "ES2015",
+    "moduleResolution": "Node",
+    "baseUrl": "wwwroot"
+  },
+  "include": [
+    "Typescripts/**/*"
+  ]
+}

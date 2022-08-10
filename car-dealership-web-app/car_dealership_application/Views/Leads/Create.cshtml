@@ -1,0 +1,130 @@
+﻿@model LeadViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    ViewData["Subject"] = "Lead";
+}
+
+<div class="container-fluid px-4" role="main">
+    <h1 class="mt-4">@ViewData["Title"] @ViewData["Subject"]</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item">
+            <a asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a asp-area="" asp-controller="Cars" asp-action="Index">@ViewData["Subject"]</a>
+        </li>
+        <li class="breadcrumb-item active">
+            @ViewData["Title"]
+        </li>
+    </ol>
+</div>
+
+<div class="row container-fluid table-container m-0 px-3 pb-3">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PhoneNo" class="control-label"></label>
+                <input asp-for="PhoneNo" class="form-control" />
+                <span asp-validation-for="PhoneNo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="DontEmail" class="control-label"></label>
+                <select asp-for="DontEmail" class="form-control" asp-items="ViewBag.DontEmailItems">
+                    <option value="">-- Select Option --</option>
+                </select>
+                <span asp-validation-for="DontEmail" class="text-danger" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="DontCall" class="control-label"></label>
+                <select asp-for="DontCall" class="form-control" asp-items="ViewBag.DontCallItems">
+                    <option value="">-- Select Option --</option>
+                </select>
+                <span asp-validation-for="DontCall" class="text-danger" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Occupation" class="control-label"></label>
+                <select asp-for="Occupation" class="form-control" asp-items="ViewBag.OccupationItems">
+                    <option value="">-- Select Occupation --</option>
+                </select>
+                <span asp-validation-for="Occupation" class="text-danger" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ReceivedFreeCopy" class="control-label"></label>
+                <select asp-for="ReceivedFreeCopy" class="form-control" asp-items="ViewBag.ReceivedFreeCopyItems">
+                    <option value="">-- Select Option --</option>
+                </select>
+                <span asp-validation-for="ReceivedFreeCopy" class="text-danger" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="AvgPageViewPerVisit" class="control-label"></label>
+                <input asp-for="AvgPageViewPerVisit" class="form-control" />
+                <span asp-validation-for="AvgPageViewPerVisit" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PredictedScore" class="control-label"></label>
+                <input asp-for="PredictedScore" class="form-control" />
+                <span asp-validation-for="PredictedScore" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="TotalSiteVisit" class="control-label"></label>
+                <input asp-for="TotalSiteVisit" class="form-control" />
+                <span asp-validation-for="TotalSiteVisit" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="TotalTimeSpendOnSite" class="control-label"></label>
+                <input asp-for="TotalTimeSpendOnSite" class="form-control" />
+                <span asp-validation-for="TotalTimeSpendOnSite" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Status" class="control-label"></label>
+                <select asp-for="Status" class="form-control" asp-items="ViewBag.StatusItems">
+                    <option value="">-- Select Status --</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger" />
+            </div>
+
+            <input type="hidden" name="prevURL" value="@ViewData["PrevURL"]">
+            <div class="form-group mb-3">
+                <button type="submit" value="Create" class="btn btn-primary"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Create">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    &nbsp;&nbsp;Create
+                </button>
+                &nbsp;|&nbsp;
+                <a href="@ViewData["PrevURL"]" class="text-decoration-none"
+                   data-bs-toggle="tooltip" data-bs-placement="top" title="Back to List">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    &nbsp;&nbsp;Back to List
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

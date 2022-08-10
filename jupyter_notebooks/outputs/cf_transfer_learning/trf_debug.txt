@@ -1,0 +1,3612 @@
+Node location: 
+Left  child index: 1
+Count: 21071
+Right child index: 1034
+Count: 3929
+
+Node location: 0
+Left  child index: 2
+Count: 20021
+Right child index: 977
+Count: 1050
+
+Node location: 1
+Left  child index: 1035
+Count: 3477
+Right child index: 1176
+Count: 452
+
+Node location: 00
+Left  child index: 3
+Count: 11185
+Right child index: 528
+Count: 8836
+
+Node location: 01
+Left  child index: 978
+Count: 946
+Right child index: 1031
+Count: 104
+
+Node location: 10
+Left  child index: 1036
+Count: 3299
+Right child index: 1171
+Count: 178
+
+Node location: 11
+Left  child index: 1177
+Count: 261
+Right child index: 1192
+Count: 191
+
+Node location: 000
+Left  child index: 4
+Count: 2653
+Right child index: 131
+Count: 8532
+
+Node location: 001
+Left  child index: 529
+Count: 8360
+Right child index: 952
+Count: 476
+
+Node location: 010
+Left  child index: 979
+Count: 746
+Right child index: 1014
+Count: 200
+
+Node location: 011
+Left  child index: 1032
+Count: 73
+Right child index: 1033
+Count: 31
+
+Node location: 100
+Left  child index: 1037
+Count: 2434
+Right child index: 1154
+Count: 865
+
+Node location: 101
+Left  child index: 1172
+Count: 56
+Right child index: 1173
+Count: 122
+
+Node location: 110
+Left  child index: 1178
+Count: 255
+Right child index: 1191
+Count: 6
+
+Node location: 111
+Left  child index: 1193
+Count: 184
+Right child index: 1204
+Count: 7
+
+Node location: 0000
+Left  child index: 5
+Count: 2485
+Right child index: 120
+Count: 168
+
+Node location: 0001
+Left  child index: 132
+Count: 5584
+Right child index: 333
+Count: 2948
+
+Node location: 0010
+Left  child index: 530
+Count: 6164
+Right child index: 873
+Count: 2196
+
+Node location: 0011
+Left  child index: 953
+Count: 419
+Right child index: 976
+Count: 57
+
+Node location: 0100
+Left  child index: 980
+Count: 735
+Right child index: 1013
+Count: 11
+
+Node location: 0101
+Left  child index: 1015
+Count: 179
+Right child index: 1030
+Count: 21
+
+Node location: 1000
+Left  child index: 1038
+Count: 1997
+Right child index: 1125
+Count: 437
+
+Node location: 1001
+Left  child index: 1155
+Count: 93
+Right child index: 1160
+Count: 772
+
+Node location: 1011
+Left  child index: 1174
+Count: 74
+Right child index: 1175
+Count: 48
+
+Node location: 1100
+Left  child index: 1179
+Count: 190
+Right child index: 1190
+Count: 65
+
+Node location: 1110
+Left  child index: 1194
+Count: 175
+Right child index: 1203
+Count: 9
+
+Node location: 00000
+Left  child index: 6
+Count: 2361
+Right child index: 113
+Count: 124
+
+Node location: 00001
+Left  child index: 121
+Count: 132
+Right child index: 130
+Count: 36
+
+Node location: 00010
+Left  child index: 133
+Count: 5288
+Right child index: 320
+Count: 296
+
+Node location: 00011
+Left  child index: 334
+Count: 1199
+Right child index: 407
+Count: 1749
+
+Node location: 00100
+Left  child index: 531
+Count: 5261
+Right child index: 824
+Count: 903
+
+Node location: 00101
+Left  child index: 874
+Count: 144
+Right child index: 885
+Count: 2052
+
+Node location: 00110
+Left  child index: 954
+Count: 410
+Right child index: 975
+Count: 9
+
+Node location: 01000
+Left  child index: 981
+Count: 47
+Right child index: 982
+Count: 688
+
+Node location: 01010
+Left  child index: 1016
+Count: 133
+Right child index: 1029
+Count: 46
+
+Node location: 10000
+Left  child index: 1039
+Count: 1906
+Right child index: 1122
+Count: 91
+
+Node location: 10001
+Left  child index: 1126
+Count: 427
+Right child index: 1153
+Count: 10
+
+Node location: 10010
+Left  child index: 1156
+Count: 84
+Right child index: 1159
+Count: 9
+
+Node location: 10011
+Left  child index: 1161
+Count: 617
+Right child index: 1168
+Count: 155
+
+Node location: 11000
+Left  child index: 1180
+Count: 181
+Right child index: 1189
+Count: 9
+
+Node location: 11100
+Left  child index: 1195
+Count: 29
+Right child index: 1196
+Count: 146
+
+Node location: 000000
+Left  child index: 7
+Count: 670
+Right child index: 44
+Count: 1691
+
+Node location: 000001
+Left  child index: 114
+Count: 119
+Right child index: 119
+Count: 5
+
+Node location: 000010
+Left  child index: 122
+Count: 127
+Right child index: 129
+Count: 5
+
+Node location: 000100
+Left  child index: 134
+Count: 4995
+Right child index: 303
+Count: 293
+
+Node location: 000101
+Left  child index: 321
+Count: 52
+Right child index: 322
+Count: 244
+
+Node location: 000110
+Left  child index: 335
+Count: 1069
+Right child index: 402
+Count: 130
+
+Node location: 000111
+Left  child index: 408
+Count: 1183
+Right child index: 493
+Count: 566
+
+Node location: 001000
+Left  child index: 532
+Count: 661
+Right child index: 571
+Count: 4600
+
+Node location: 001001
+Left  child index: 825
+Count: 643
+Right child index: 860
+Count: 260
+
+Node location: 001010
+Left  child index: 875
+Count: 110
+Right child index: 884
+Count: 34
+
+Node location: 001011
+Left  child index: 886
+Count: 102
+Right child index: 889
+Count: 1950
+
+Node location: 001100
+Left  child index: 955
+Count: 402
+Right child index: 974
+Count: 8
+
+Node location: 010001
+Left  child index: 983
+Count: 589
+Right child index: 1010
+Count: 99
+
+Node location: 010100
+Left  child index: 1017
+Count: 8
+Right child index: 1018
+Count: 125
+
+Node location: 100000
+Left  child index: 1040
+Count: 615
+Right child index: 1073
+Count: 1291
+
+Node location: 100001
+Left  child index: 1123
+Count: 17
+Right child index: 1124
+Count: 74
+
+Node location: 100010
+Left  child index: 1127
+Count: 10
+Right child index: 1128
+Count: 417
+
+Node location: 100100
+Left  child index: 1157
+Count: 76
+Right child index: 1158
+Count: 8
+
+Node location: 100110
+Left  child index: 1162
+Count: 578
+Right child index: 1167
+Count: 39
+
+Node location: 100111
+Left  child index: 1169
+Count: 105
+Right child index: 1170
+Count: 50
+
+Node location: 110000
+Left  child index: 1181
+Count: 68
+Right child index: 1184
+Count: 113
+
+Node location: 111001
+Left  child index: 1197
+Count: 108
+Right child index: 1202
+Count: 38
+
+Node location: 0000000
+Left  child index: 8
+Count: 635
+Right child index: 43
+Count: 35
+
+Node location: 0000001
+Left  child index: 45
+Count: 1603
+Right child index: 110
+Count: 88
+
+Node location: 0000010
+Left  child index: 115
+Count: 22
+Right child index: 116
+Count: 97
+
+Node location: 0000100
+Left  child index: 123
+Count: 122
+Right child index: 128
+Count: 5
+
+Node location: 0001000
+Left  child index: 135
+Count: 4701
+Right child index: 286
+Count: 294
+
+Node location: 0001001
+Left  child index: 304
+Count: 227
+Right child index: 319
+Count: 66
+
+Node location: 0001011
+Left  child index: 323
+Count: 219
+Right child index: 332
+Count: 25
+
+Node location: 0001100
+Left  child index: 336
+Count: 729
+Right child index: 385
+Count: 340
+
+Node location: 0001101
+Left  child index: 403
+Count: 129
+Right child index: 406
+Count: 1
+
+Node location: 0001110
+Left  child index: 409
+Count: 87
+Right child index: 412
+Count: 1096
+
+Node location: 0001111
+Left  child index: 494
+Count: 537
+Right child index: 527
+Count: 29
+
+Node location: 0010000
+Left  child index: 533
+Count: 497
+Right child index: 558
+Count: 164
+
+Node location: 0010001
+Left  child index: 572
+Count: 2141
+Right child index: 709
+Count: 2459
+
+Node location: 0010010
+Left  child index: 826
+Count: 563
+Right child index: 857
+Count: 80
+
+Node location: 0010011
+Left  child index: 861
+Count: 87
+Right child index: 864
+Count: 173
+
+Node location: 0010100
+Left  child index: 876
+Count: 1
+Right child index: 877
+Count: 109
+
+Node location: 0010110
+Left  child index: 887
+Count: 39
+Right child index: 888
+Count: 63
+
+Node location: 0010111
+Left  child index: 890
+Count: 1327
+Right child index: 939
+Count: 623
+
+Node location: 0011000
+Left  child index: 956
+Count: 190
+Right child index: 965
+Count: 212
+
+Node location: 0100010
+Left  child index: 984
+Count: 111
+Right child index: 989
+Count: 478
+
+Node location: 0100011
+Left  child index: 1011
+Count: 73
+Right child index: 1012
+Count: 26
+
+Node location: 0101001
+Left  child index: 1019
+Count: 115
+Right child index: 1028
+Count: 10
+
+Node location: 1000000
+Left  child index: 1041
+Count: 577
+Right child index: 1072
+Count: 38
+
+Node location: 1000001
+Left  child index: 1074
+Count: 1217
+Right child index: 1121
+Count: 74
+
+Node location: 1000101
+Left  child index: 1129
+Count: 358
+Right child index: 1152
+Count: 59
+
+Node location: 1001100
+Left  child index: 1163
+Count: 399
+Right child index: 1164
+Count: 179
+
+Node location: 1100000
+Left  child index: 1182
+Count: 3
+Right child index: 1183
+Count: 65
+
+Node location: 1100001
+Left  child index: 1185
+Count: 106
+Right child index: 1188
+Count: 7
+
+Node location: 1110010
+Left  child index: 1198
+Count: 100
+Right child index: 1201
+Count: 8
+
+Node location: 00000000
+Left  child index: 9
+Count: 598
+Right child index: 42
+Count: 37
+
+Node location: 00000010
+Left  child index: 46
+Count: 1601
+Right child index: 109
+Count: 2
+
+Node location: 00000011
+Left  child index: 111
+Count: 19
+Right child index: 112
+Count: 69
+
+Node location: 00000101
+Left  child index: 117
+Count: 51
+Right child index: 118
+Count: 46
+
+Node location: 00001000
+Left  child index: 124
+Count: 44
+Right child index: 125
+Count: 78
+
+Node location: 00010000
+Left  child index: 136
+Count: 297
+Right child index: 153
+Count: 4404
+
+Node location: 00010001
+Left  child index: 287
+Count: 210
+Right child index: 302
+Count: 84
+
+Node location: 00010010
+Left  child index: 305
+Count: 202
+Right child index: 318
+Count: 25
+
+Node location: 00010110
+Left  child index: 324
+Count: 176
+Right child index: 331
+Count: 43
+
+Node location: 00011000
+Left  child index: 337
+Count: 124
+Right child index: 344
+Count: 605
+
+Node location: 00011001
+Left  child index: 386
+Count: 319
+Right child index: 401
+Count: 21
+
+Node location: 00011010
+Left  child index: 404
+Count: 63
+Right child index: 405
+Count: 66
+
+Node location: 00011100
+Left  child index: 410
+Count: 81
+Right child index: 411
+Count: 6
+
+Node location: 00011101
+Left  child index: 413
+Count: 459
+Right child index: 450
+Count: 637
+
+Node location: 00011110
+Left  child index: 495
+Count: 488
+Right child index: 526
+Count: 49
+
+Node location: 00100000
+Left  child index: 534
+Count: 151
+Right child index: 537
+Count: 346
+
+Node location: 00100001
+Left  child index: 559
+Count: 158
+Right child index: 570
+Count: 6
+
+Node location: 00100010
+Left  child index: 573
+Count: 916
+Right child index: 628
+Count: 1225
+
+Node location: 00100011
+Left  child index: 710
+Count: 908
+Right child index: 755
+Count: 1551
+
+Node location: 00100100
+Left  child index: 827
+Count: 487
+Right child index: 856
+Count: 76
+
+Node location: 00100101
+Left  child index: 858
+Count: 74
+Right child index: 859
+Count: 6
+
+Node location: 00100110
+Left  child index: 862
+Count: 31
+Right child index: 863
+Count: 56
+
+Node location: 00100111
+Left  child index: 865
+Count: 164
+Right child index: 872
+Count: 9
+
+Node location: 00101001
+Left  child index: 878
+Count: 105
+Right child index: 883
+Count: 4
+
+Node location: 00101110
+Left  child index: 891
+Count: 1258
+Right child index: 938
+Count: 69
+
+Node location: 00101111
+Left  child index: 940
+Count: 74
+Right child index: 941
+Count: 549
+
+Node location: 00110000
+Left  child index: 957
+Count: 141
+Right child index: 964
+Count: 49
+
+Node location: 00110001
+Left  child index: 966
+Count: 164
+Right child index: 973
+Count: 48
+
+Node location: 01000100
+Left  child index: 985
+Count: 89
+Right child index: 988
+Count: 22
+
+Node location: 01000101
+Left  child index: 990
+Count: 329
+Right child index: 1005
+Count: 149
+
+Node location: 01010010
+Left  child index: 1020
+Count: 103
+Right child index: 1027
+Count: 12
+
+Node location: 10000000
+Left  child index: 1042
+Count: 543
+Right child index: 1071
+Count: 34
+
+Node location: 10000010
+Left  child index: 1075
+Count: 1084
+Right child index: 1112
+Count: 133
+
+Node location: 10001010
+Left  child index: 1130
+Count: 322
+Right child index: 1151
+Count: 36
+
+Node location: 10011001
+Left  child index: 1165
+Count: 168
+Right child index: 1166
+Count: 11
+
+Node location: 11000010
+Left  child index: 1186
+Count: 40
+Right child index: 1187
+Count: 66
+
+Node location: 11100100
+Left  child index: 1199
+Count: 42
+Right child index: 1200
+Count: 58
+
+Node location: 000000000
+Left  child index: 10
+Count: 552
+Right child index: 41
+Count: 46
+
+Node location: 000000100
+Left  child index: 47
+Count: 1510
+Right child index: 106
+Count: 91
+
+Node location: 000010001
+Left  child index: 126
+Count: 74
+Right child index: 127
+Count: 4
+
+Node location: 000100000
+Left  child index: 137
+Count: 265
+Right child index: 152
+Count: 32
+
+Node location: 000100001
+Left  child index: 154
+Count: 4136
+Right child index: 275
+Count: 268
+
+Node location: 000100010
+Left  child index: 288
+Count: 183
+Right child index: 301
+Count: 27
+
+Node location: 000100100
+Left  child index: 306
+Count: 179
+Right child index: 317
+Count: 23
+
+Node location: 000101100
+Left  child index: 325
+Count: 62
+Right child index: 326
+Count: 114
+
+Node location: 000110000
+Left  child index: 338
+Count: 100
+Right child index: 343
+Count: 24
+
+Node location: 000110001
+Left  child index: 345
+Count: 400
+Right child index: 370
+Count: 205
+
+Node location: 000110010
+Left  child index: 387
+Count: 139
+Right child index: 398
+Count: 180
+
+Node location: 000111010
+Left  child index: 414
+Count: 431
+Right child index: 449
+Count: 28
+
+Node location: 000111011
+Left  child index: 451
+Count: 3
+Right child index: 452
+Count: 634
+
+Node location: 000111100
+Left  child index: 496
+Count: 111
+Right child index: 505
+Count: 377
+
+Node location: 001000000
+Left  child index: 535
+Count: 77
+Right child index: 536
+Count: 74
+
+Node location: 001000001
+Left  child index: 538
+Count: 304
+Right child index: 557
+Count: 42
+
+Node location: 001000010
+Left  child index: 560
+Count: 135
+Right child index: 569
+Count: 23
+
+Node location: 001000100
+Left  child index: 574
+Count: 354
+Right child index: 593
+Count: 562
+
+Node location: 001000101
+Left  child index: 629
+Count: 686
+Right child index: 684
+Count: 539
+
+Node location: 001000110
+Left  child index: 711
+Count: 735
+Right child index: 748
+Count: 173
+
+Node location: 001000111
+Left  child index: 756
+Count: 1470
+Right child index: 821
+Count: 81
+
+Node location: 001001000
+Left  child index: 828
+Count: 143
+Right child index: 841
+Count: 344
+
+Node location: 001001110
+Left  child index: 866
+Count: 34
+Right child index: 867
+Count: 130
+
+Node location: 001010010
+Left  child index: 879
+Count: 23
+Right child index: 880
+Count: 82
+
+Node location: 001011100
+Left  child index: 892
+Count: 1256
+Right child index: 937
+Count: 2
+
+Node location: 001011111
+Left  child index: 942
+Count: 28
+Right child index: 943
+Count: 521
+
+Node location: 001100000
+Left  child index: 958
+Count: 41
+Right child index: 959
+Count: 100
+
+Node location: 001100010
+Left  child index: 967
+Count: 52
+Right child index: 968
+Count: 112
+
+Node location: 010001000
+Left  child index: 986
+Count: 32
+Right child index: 987
+Count: 57
+
+Node location: 010001010
+Left  child index: 991
+Count: 118
+Right child index: 998
+Count: 211
+
+Node location: 010001011
+Left  child index: 1006
+Count: 50
+Right child index: 1007
+Count: 99
+
+Node location: 010100100
+Left  child index: 1021
+Count: 92
+Right child index: 1026
+Count: 11
+
+Node location: 100000000
+Left  child index: 1043
+Count: 343
+Right child index: 1062
+Count: 200
+
+Node location: 100000100
+Left  child index: 1076
+Count: 930
+Right child index: 1103
+Count: 154
+
+Node location: 100000101
+Left  child index: 1113
+Count: 127
+Right child index: 1120
+Count: 6
+
+Node location: 100010100
+Left  child index: 1131
+Count: 295
+Right child index: 1150
+Count: 27
+
+Node location: 0000000000
+Left  child index: 11
+Count: 295
+Right child index: 22
+Count: 257
+
+Node location: 0000001000
+Left  child index: 48
+Count: 1419
+Right child index: 103
+Count: 91
+
+Node location: 0000001001
+Left  child index: 107
+Count: 12
+Right child index: 108
+Count: 79
+
+Node location: 0001000000
+Left  child index: 138
+Count: 238
+Right child index: 151
+Count: 27
+
+Node location: 0001000010
+Left  child index: 155
+Count: 3880
+Right child index: 262
+Count: 256
+
+Node location: 0001000011
+Left  child index: 276
+Count: 240
+Right child index: 285
+Count: 28
+
+Node location: 0001000100
+Left  child index: 289
+Count: 164
+Right child index: 300
+Count: 19
+
+Node location: 0001001000
+Left  child index: 307
+Count: 149
+Right child index: 316
+Count: 30
+
+Node location: 0001011001
+Left  child index: 327
+Count: 82
+Right child index: 330
+Count: 32
+
+Node location: 0001100000
+Left  child index: 339
+Count: 98
+Right child index: 342
+Count: 2
+
+Node location: 0001100010
+Left  child index: 346
+Count: 355
+Right child index: 369
+Count: 45
+
+Node location: 0001100011
+Left  child index: 371
+Count: 195
+Right child index: 384
+Count: 10
+
+Node location: 0001100100
+Left  child index: 388
+Count: 138
+Right child index: 397
+Count: 1
+
+Node location: 0001100101
+Left  child index: 399
+Count: 146
+Right child index: 400
+Count: 34
+
+Node location: 0001110100
+Left  child index: 415
+Count: 206
+Right child index: 434
+Count: 225
+
+Node location: 0001110111
+Left  child index: 453
+Count: 588
+Right child index: 492
+Count: 46
+
+Node location: 0001111000
+Left  child index: 497
+Count: 96
+Right child index: 504
+Count: 15
+
+Node location: 0001111001
+Left  child index: 506
+Count: 355
+Right child index: 525
+Count: 22
+
+Node location: 0010000010
+Left  child index: 539
+Count: 247
+Right child index: 556
+Count: 57
+
+Node location: 0010000100
+Left  child index: 561
+Count: 6
+Right child index: 562
+Count: 129
+
+Node location: 0010001000
+Left  child index: 575
+Count: 342
+Right child index: 592
+Count: 12
+
+Node location: 0010001001
+Left  child index: 594
+Count: 524
+Right child index: 627
+Count: 38
+
+Node location: 0010001010
+Left  child index: 630
+Count: 325
+Right child index: 649
+Count: 361
+
+Node location: 0010001011
+Left  child index: 685
+Count: 519
+Right child index: 708
+Count: 20
+
+Node location: 0010001100
+Left  child index: 712
+Count: 694
+Right child index: 747
+Count: 41
+
+Node location: 0010001101
+Left  child index: 749
+Count: 165
+Right child index: 754
+Count: 8
+
+Node location: 0010001110
+Left  child index: 757
+Count: 1390
+Right child index: 818
+Count: 80
+
+Node location: 0010001111
+Left  child index: 822
+Count: 38
+Right child index: 823
+Count: 43
+
+Node location: 0010010000
+Left  child index: 829
+Count: 134
+Right child index: 840
+Count: 9
+
+Node location: 0010010001
+Left  child index: 842
+Count: 298
+Right child index: 855
+Count: 46
+
+Node location: 0010011101
+Left  child index: 868
+Count: 11
+Right child index: 869
+Count: 119
+
+Node location: 0010100101
+Left  child index: 881
+Count: 19
+Right child index: 882
+Count: 63
+
+Node location: 0010111000
+Left  child index: 893
+Count: 1183
+Right child index: 936
+Count: 73
+
+Node location: 0010111111
+Left  child index: 944
+Count: 485
+Right child index: 951
+Count: 36
+
+Node location: 0011000001
+Left  child index: 960
+Count: 6
+Right child index: 961
+Count: 94
+
+Node location: 0011000101
+Left  child index: 969
+Count: 87
+Right child index: 972
+Count: 25
+
+Node location: 0100010100
+Left  child index: 992
+Count: 17
+Right child index: 993
+Count: 101
+
+Node location: 0100010101
+Left  child index: 999
+Count: 188
+Right child index: 1004
+Count: 23
+
+Node location: 0100010111
+Left  child index: 1008
+Count: 18
+Right child index: 1009
+Count: 81
+
+Node location: 0101001000
+Left  child index: 1022
+Count: 78
+Right child index: 1025
+Count: 14
+
+Node location: 1000000000
+Left  child index: 1044
+Count: 314
+Right child index: 1061
+Count: 29
+
+Node location: 1000000001
+Left  child index: 1063
+Count: 168
+Right child index: 1070
+Count: 32
+
+Node location: 1000001000
+Left  child index: 1077
+Count: 15
+Right child index: 1078
+Count: 915
+
+Node location: 1000001001
+Left  child index: 1104
+Count: 31
+Right child index: 1105
+Count: 123
+
+Node location: 1000001010
+Left  child index: 1114
+Count: 107
+Right child index: 1119
+Count: 20
+
+Node location: 1000101000
+Left  child index: 1132
+Count: 126
+Right child index: 1141
+Count: 169
+
+Node location: 00000000000
+Left  child index: 12
+Count: 291
+Right child index: 21
+Count: 4
+
+Node location: 00000000001
+Left  child index: 23
+Count: 234
+Right child index: 40
+Count: 23
+
+Node location: 00000010000
+Left  child index: 49
+Count: 806
+Right child index: 74
+Count: 613
+
+Node location: 00000010001
+Left  child index: 104
+Count: 69
+Right child index: 105
+Count: 22
+
+Node location: 00010000000
+Left  child index: 139
+Count: 145
+Right child index: 146
+Count: 93
+
+Node location: 00010000100
+Left  child index: 156
+Count: 1249
+Right child index: 195
+Count: 2631
+
+Node location: 00010000101
+Left  child index: 263
+Count: 218
+Right child index: 274
+Count: 38
+
+Node location: 00010000110
+Left  child index: 277
+Count: 221
+Right child index: 284
+Count: 19
+
+Node location: 00010001000
+Left  child index: 290
+Count: 3
+Right child index: 291
+Count: 161
+
+Node location: 00010010000
+Left  child index: 308
+Count: 8
+Right child index: 309
+Count: 141
+
+Node location: 00010110010
+Left  child index: 328
+Count: 42
+Right child index: 329
+Count: 40
+
+Node location: 00011000000
+Left  child index: 340
+Count: 29
+Right child index: 341
+Count: 69
+
+Node location: 00011000100
+Left  child index: 347
+Count: 346
+Right child index: 368
+Count: 9
+
+Node location: 00011000110
+Left  child index: 372
+Count: 188
+Right child index: 383
+Count: 7
+
+Node location: 00011001000
+Left  child index: 389
+Count: 121
+Right child index: 396
+Count: 17
+
+Node location: 00011101000
+Left  child index: 416
+Count: 187
+Right child index: 433
+Count: 19
+
+Node location: 00011101001
+Left  child index: 435
+Count: 219
+Right child index: 448
+Count: 6
+
+Node location: 00011101110
+Left  child index: 454
+Count: 278
+Right child index: 471
+Count: 310
+
+Node location: 00011110000
+Left  child index: 498
+Count: 92
+Right child index: 503
+Count: 4
+
+Node location: 00011110010
+Left  child index: 507
+Count: 255
+Right child index: 518
+Count: 100
+
+Node location: 00100000100
+Left  child index: 540
+Count: 235
+Right child index: 555
+Count: 12
+
+Node location: 00100001001
+Left  child index: 563
+Count: 124
+Right child index: 568
+Count: 5
+
+Node location: 00100010000
+Left  child index: 576
+Count: 321
+Right child index: 591
+Count: 21
+
+Node location: 00100010010
+Left  child index: 595
+Count: 226
+Right child index: 610
+Count: 298
+
+Node location: 00100010100
+Left  child index: 631
+Count: 305
+Right child index: 648
+Count: 20
+
+Node location: 00100010101
+Left  child index: 650
+Count: 133
+Right child index: 667
+Count: 228
+
+Node location: 00100010110
+Left  child index: 686
+Count: 490
+Right child index: 707
+Count: 29
+
+Node location: 00100011000
+Left  child index: 713
+Count: 230
+Right child index: 724
+Count: 464
+
+Node location: 00100011010
+Left  child index: 750
+Count: 59
+Right child index: 751
+Count: 106
+
+Node location: 00100011100
+Left  child index: 758
+Count: 563
+Right child index: 789
+Count: 827
+
+Node location: 00100011101
+Left  child index: 819
+Count: 64
+Right child index: 820
+Count: 16
+
+Node location: 00100100000
+Left  child index: 830
+Count: 129
+Right child index: 839
+Count: 5
+
+Node location: 00100100010
+Left  child index: 843
+Count: 292
+Right child index: 854
+Count: 6
+
+Node location: 00100111011
+Left  child index: 870
+Count: 99
+Right child index: 871
+Count: 20
+
+Node location: 00101110000
+Left  child index: 894
+Count: 171
+Right child index: 901
+Count: 1012
+
+Node location: 00101111110
+Left  child index: 945
+Count: 419
+Right child index: 950
+Count: 66
+
+Node location: 00110000011
+Left  child index: 962
+Count: 68
+Right child index: 963
+Count: 26
+
+Node location: 00110001010
+Left  child index: 970
+Count: 14
+Right child index: 971
+Count: 73
+
+Node location: 01000101001
+Left  child index: 994
+Count: 92
+Right child index: 997
+Count: 9
+
+Node location: 01000101010
+Left  child index: 1000
+Count: 104
+Right child index: 1003
+Count: 84
+
+Node location: 01010010000
+Left  child index: 1023
+Count: 73
+Right child index: 1024
+Count: 5
+
+Node location: 10000000000
+Left  child index: 1045
+Count: 251
+Right child index: 1060
+Count: 63
+
+Node location: 10000000010
+Left  child index: 1064
+Count: 142
+Right child index: 1069
+Count: 26
+
+Node location: 10000010001
+Left  child index: 1079
+Count: 866
+Right child index: 1102
+Count: 49
+
+Node location: 10000010011
+Left  child index: 1106
+Count: 119
+Right child index: 1111
+Count: 4
+
+Node location: 10000010100
+Left  child index: 1115
+Count: 91
+Right child index: 1118
+Count: 16
+
+Node location: 10001010000
+Left  child index: 1133
+Count: 119
+Right child index: 1140
+Count: 7
+
+Node location: 10001010001
+Left  child index: 1142
+Count: 7
+Right child index: 1143
+Count: 162
+
+Node location: 000000000000
+Left  child index: 13
+Count: 92
+Right child index: 16
+Count: 199
+
+Node location: 000000000010
+Left  child index: 24
+Count: 211
+Right child index: 39
+Count: 23
+
+Node location: 000000100000
+Left  child index: 50
+Count: 376
+Right child index: 59
+Count: 430
+
+Node location: 000000100001
+Left  child index: 75
+Count: 80
+Right child index: 80
+Count: 533
+
+Node location: 000100000000
+Left  child index: 140
+Count: 129
+Right child index: 145
+Count: 16
+
+Node location: 000100000001
+Left  child index: 147
+Count: 82
+Right child index: 150
+Count: 11
+
+Node location: 000100001000
+Left  child index: 157
+Count: 163
+Right child index: 170
+Count: 1086
+
+Node location: 000100001001
+Left  child index: 196
+Count: 1766
+Right child index: 239
+Count: 865
+
+Node location: 000100001010
+Left  child index: 264
+Count: 131
+Right child index: 269
+Count: 87
+
+Node location: 000100001100
+Left  child index: 278
+Count: 8
+Right child index: 279
+Count: 213
+
+Node location: 000100010001
+Left  child index: 292
+Count: 157
+Right child index: 299
+Count: 4
+
+Node location: 000100100001
+Left  child index: 310
+Count: 123
+Right child index: 315
+Count: 18
+
+Node location: 000110001000
+Left  child index: 348
+Count: 300
+Right child index: 367
+Count: 46
+
+Node location: 000110001100
+Left  child index: 373
+Count: 176
+Right child index: 382
+Count: 12
+
+Node location: 000110010000
+Left  child index: 390
+Count: 110
+Right child index: 395
+Count: 11
+
+Node location: 000111010000
+Left  child index: 417
+Count: 175
+Right child index: 432
+Count: 12
+
+Node location: 000111010010
+Left  child index: 436
+Count: 209
+Right child index: 447
+Count: 10
+
+Node location: 000111011100
+Left  child index: 455
+Count: 182
+Right child index: 464
+Count: 96
+
+Node location: 000111011101
+Left  child index: 472
+Count: 96
+Right child index: 477
+Count: 214
+
+Node location: 000111100000
+Left  child index: 499
+Count: 6
+Right child index: 500
+Count: 86
+
+Node location: 000111100100
+Left  child index: 508
+Count: 214
+Right child index: 517
+Count: 41
+
+Node location: 000111100101
+Left  child index: 519
+Count: 95
+Right child index: 524
+Count: 5
+
+Node location: 001000001000
+Left  child index: 541
+Count: 95
+Right child index: 544
+Count: 140
+
+Node location: 001000010010
+Left  child index: 564
+Count: 108
+Right child index: 567
+Count: 16
+
+Node location: 001000100000
+Left  child index: 577
+Count: 298
+Right child index: 590
+Count: 23
+
+Node location: 001000100100
+Left  child index: 596
+Count: 198
+Right child index: 609
+Count: 28
+
+Node location: 001000100101
+Left  child index: 611
+Count: 280
+Right child index: 626
+Count: 18
+
+Node location: 001000101000
+Left  child index: 632
+Count: 57
+Right child index: 633
+Count: 248
+
+Node location: 001000101010
+Left  child index: 651
+Count: 5
+Right child index: 652
+Count: 128
+
+Node location: 001000101011
+Left  child index: 668
+Count: 10
+Right child index: 669
+Count: 218
+
+Node location: 001000101100
+Left  child index: 687
+Count: 427
+Right child index: 706
+Count: 63
+
+Node location: 001000110000
+Left  child index: 714
+Count: 70
+Right child index: 715
+Count: 160
+
+Node location: 001000110001
+Left  child index: 725
+Count: 272
+Right child index: 742
+Count: 192
+
+Node location: 001000110101
+Left  child index: 752
+Count: 44
+Right child index: 753
+Count: 62
+
+Node location: 001000111000
+Left  child index: 759
+Count: 520
+Right child index: 788
+Count: 43
+
+Node location: 001000111001
+Left  child index: 790
+Count: 781
+Right child index: 817
+Count: 46
+
+Node location: 001001000000
+Left  child index: 831
+Count: 121
+Right child index: 838
+Count: 8
+
+Node location: 001001000100
+Left  child index: 844
+Count: 232
+Right child index: 853
+Count: 60
+
+Node location: 001011100000
+Left  child index: 895
+Count: 161
+Right child index: 900
+Count: 10
+
+Node location: 001011100001
+Left  child index: 902
+Count: 5
+Right child index: 903
+Count: 1007
+
+Node location: 001011111100
+Left  child index: 946
+Count: 381
+Right child index: 949
+Count: 38
+
+Node location: 010001010010
+Left  child index: 995
+Count: 37
+Right child index: 996
+Count: 55
+
+Node location: 010001010100
+Left  child index: 1001
+Count: 80
+Right child index: 1002
+Count: 24
+
+Node location: 100000000000
+Left  child index: 1046
+Count: 225
+Right child index: 1059
+Count: 26
+
+Node location: 100000000100
+Left  child index: 1065
+Count: 136
+Right child index: 1068
+Count: 6
+
+Node location: 100000100010
+Left  child index: 1080
+Count: 729
+Right child index: 1095
+Count: 137
+
+Node location: 100000100110
+Left  child index: 1107
+Count: 26
+Right child index: 1108
+Count: 93
+
+Node location: 100000101000
+Left  child index: 1116
+Count: 51
+Right child index: 1117
+Count: 40
+
+Node location: 100010100000
+Left  child index: 1134
+Count: 21
+Right child index: 1135
+Count: 98
+
+Node location: 100010100011
+Left  child index: 1144
+Count: 145
+Right child index: 1149
+Count: 17
+
+Node location: 0000000000000
+Left  child index: 14
+Count: 19
+Right child index: 15
+Count: 73
+
+Node location: 0000000000001
+Left  child index: 17
+Count: 173
+Right child index: 20
+Count: 26
+
+Node location: 0000000000100
+Left  child index: 25
+Count: 184
+Right child index: 38
+Count: 27
+
+Node location: 0000001000000
+Left  child index: 51
+Count: 352
+Right child index: 58
+Count: 24
+
+Node location: 0000001000001
+Left  child index: 60
+Count: 381
+Right child index: 73
+Count: 49
+
+Node location: 0000001000010
+Left  child index: 76
+Count: 73
+Right child index: 79
+Count: 7
+
+Node location: 0000001000011
+Left  child index: 81
+Count: 1
+Right child index: 82
+Count: 532
+
+Node location: 0001000000000
+Left  child index: 141
+Count: 45
+Right child index: 142
+Count: 84
+
+Node location: 0001000000010
+Left  child index: 148
+Count: 73
+Right child index: 149
+Count: 9
+
+Node location: 0001000010000
+Left  child index: 158
+Count: 8
+Right child index: 159
+Count: 155
+
+Node location: 0001000010001
+Left  child index: 171
+Count: 951
+Right child index: 182
+Count: 135
+
+Node location: 0001000010010
+Left  child index: 197
+Count: 1631
+Right child index: 230
+Count: 135
+
+Node location: 0001000010011
+Left  child index: 240
+Count: 170
+Right child index: 249
+Count: 695
+
+Node location: 0001000010100
+Left  child index: 265
+Count: 92
+Right child index: 268
+Count: 39
+
+Node location: 0001000010101
+Left  child index: 270
+Count: 77
+Right child index: 273
+Count: 10
+
+Node location: 0001000011001
+Left  child index: 280
+Count: 86
+Right child index: 281
+Count: 127
+
+Node location: 0001000100010
+Left  child index: 293
+Count: 124
+Right child index: 298
+Count: 33
+
+Node location: 0001001000010
+Left  child index: 311
+Count: 42
+Right child index: 312
+Count: 81
+
+Node location: 0001100010000
+Left  child index: 349
+Count: 277
+Right child index: 366
+Count: 23
+
+Node location: 0001100011000
+Left  child index: 374
+Count: 42
+Right child index: 375
+Count: 134
+
+Node location: 0001100100000
+Left  child index: 391
+Count: 90
+Right child index: 394
+Count: 20
+
+Node location: 0001110100000
+Left  child index: 418
+Count: 160
+Right child index: 431
+Count: 15
+
+Node location: 0001110100100
+Left  child index: 437
+Count: 57
+Right child index: 438
+Count: 152
+
+Node location: 0001110111000
+Left  child index: 456
+Count: 39
+Right child index: 457
+Count: 143
+
+Node location: 0001110111001
+Left  child index: 465
+Count: 91
+Right child index: 470
+Count: 5
+
+Node location: 0001110111010
+Left  child index: 473
+Count: 84
+Right child index: 476
+Count: 12
+
+Node location: 0001110111011
+Left  child index: 478
+Count: 202
+Right child index: 491
+Count: 12
+
+Node location: 0001111000001
+Left  child index: 501
+Count: 44
+Right child index: 502
+Count: 42
+
+Node location: 0001111001000
+Left  child index: 509
+Count: 46
+Right child index: 510
+Count: 168
+
+Node location: 0001111001010
+Left  child index: 520
+Count: 85
+Right child index: 523
+Count: 10
+
+Node location: 0010000010000
+Left  child index: 542
+Count: 79
+Right child index: 543
+Count: 16
+
+Node location: 0010000010001
+Left  child index: 545
+Count: 131
+Right child index: 554
+Count: 9
+
+Node location: 0010000100100
+Left  child index: 565
+Count: 38
+Right child index: 566
+Count: 70
+
+Node location: 0010001000000
+Left  child index: 578
+Count: 61
+Right child index: 579
+Count: 237
+
+Node location: 0010001001000
+Left  child index: 597
+Count: 176
+Right child index: 608
+Count: 22
+
+Node location: 0010001001010
+Left  child index: 612
+Count: 222
+Right child index: 625
+Count: 58
+
+Node location: 0010001010001
+Left  child index: 634
+Count: 58
+Right child index: 635
+Count: 190
+
+Node location: 0010001010101
+Left  child index: 653
+Count: 123
+Right child index: 666
+Count: 5
+
+Node location: 0010001010111
+Left  child index: 670
+Count: 180
+Right child index: 683
+Count: 38
+
+Node location: 0010001011000
+Left  child index: 688
+Count: 404
+Right child index: 705
+Count: 23
+
+Node location: 0010001100001
+Left  child index: 716
+Count: 149
+Right child index: 723
+Count: 11
+
+Node location: 0010001100010
+Left  child index: 726
+Count: 252
+Right child index: 741
+Count: 20
+
+Node location: 0010001100011
+Left  child index: 743
+Count: 106
+Right child index: 744
+Count: 86
+
+Node location: 0010001110000
+Left  child index: 760
+Count: 254
+Right child index: 775
+Count: 266
+
+Node location: 0010001110010
+Left  child index: 791
+Count: 739
+Right child index: 816
+Count: 42
+
+Node location: 0010010000000
+Left  child index: 832
+Count: 115
+Right child index: 837
+Count: 6
+
+Node location: 0010010001000
+Left  child index: 845
+Count: 215
+Right child index: 852
+Count: 17
+
+Node location: 0010111000000
+Left  child index: 896
+Count: 152
+Right child index: 899
+Count: 9
+
+Node location: 0010111000011
+Left  child index: 904
+Count: 948
+Right child index: 935
+Count: 59
+
+Node location: 0010111111000
+Left  child index: 947
+Count: 54
+Right child index: 948
+Count: 327
+
+Node location: 1000000000000
+Left  child index: 1047
+Count: 101
+Right child index: 1050
+Count: 124
+
+Node location: 1000000001000
+Left  child index: 1066
+Count: 78
+Right child index: 1067
+Count: 58
+
+Node location: 1000001000100
+Left  child index: 1081
+Count: 671
+Right child index: 1094
+Count: 58
+
+Node location: 1000001000101
+Left  child index: 1096
+Count: 125
+Right child index: 1101
+Count: 12
+
+Node location: 1000001001101
+Left  child index: 1109
+Count: 86
+Right child index: 1110
+Count: 7
+
+Node location: 1000101000001
+Left  child index: 1136
+Count: 79
+Right child index: 1139
+Count: 19
+
+Node location: 1000101000110
+Left  child index: 1145
+Count: 135
+Right child index: 1148
+Count: 10
+
+Node location: 00000000000010
+Left  child index: 18
+Count: 125
+Right child index: 19
+Count: 48
+
+Node location: 00000000001000
+Left  child index: 26
+Count: 174
+Right child index: 37
+Count: 10
+
+Node location: 00000010000000
+Left  child index: 52
+Count: 8
+Right child index: 53
+Count: 344
+
+Node location: 00000010000010
+Left  child index: 61
+Count: 358
+Right child index: 72
+Count: 23
+
+Node location: 00000010000100
+Left  child index: 77
+Count: 69
+Right child index: 78
+Count: 4
+
+Node location: 00000010000111
+Left  child index: 83
+Count: 500
+Right child index: 102
+Count: 32
+
+Node location: 00010000000001
+Left  child index: 143
+Count: 75
+Right child index: 144
+Count: 9
+
+Node location: 00010000100001
+Left  child index: 160
+Count: 139
+Right child index: 169
+Count: 16
+
+Node location: 00010000100010
+Left  child index: 172
+Count: 846
+Right child index: 179
+Count: 105
+
+Node location: 00010000100011
+Left  child index: 183
+Count: 113
+Right child index: 194
+Count: 22
+
+Node location: 00010000100100
+Left  child index: 198
+Count: 1452
+Right child index: 219
+Count: 179
+
+Node location: 00010000100101
+Left  child index: 231
+Count: 122
+Right child index: 238
+Count: 13
+
+Node location: 00010000100110
+Left  child index: 241
+Count: 148
+Right child index: 248
+Count: 22
+
+Node location: 00010000100111
+Left  child index: 250
+Count: 627
+Right child index: 261
+Count: 68
+
+Node location: 00010000101000
+Left  child index: 266
+Count: 85
+Right child index: 267
+Count: 7
+
+Node location: 00010000101010
+Left  child index: 271
+Count: 65
+Right child index: 272
+Count: 12
+
+Node location: 00010000110011
+Left  child index: 282
+Count: 50
+Right child index: 283
+Count: 77
+
+Node location: 00010001000100
+Left  child index: 294
+Count: 71
+Right child index: 297
+Count: 53
+
+Node location: 00010010000101
+Left  child index: 313
+Count: 66
+Right child index: 314
+Count: 15
+
+Node location: 00011000100000
+Left  child index: 350
+Count: 161
+Right child index: 361
+Count: 116
+
+Node location: 00011000110001
+Left  child index: 376
+Count: 3
+Right child index: 377
+Count: 131
+
+Node location: 00011001000000
+Left  child index: 392
+Count: 87
+Right child index: 393
+Count: 3
+
+Node location: 00011101000000
+Left  child index: 419
+Count: 147
+Right child index: 430
+Count: 13
+
+Node location: 00011101001001
+Left  child index: 439
+Count: 144
+Right child index: 446
+Count: 8
+
+Node location: 00011101110001
+Left  child index: 458
+Count: 35
+Right child index: 459
+Count: 108
+
+Node location: 00011101110010
+Left  child index: 466
+Count: 83
+Right child index: 469
+Count: 8
+
+Node location: 00011101110100
+Left  child index: 474
+Count: 75
+Right child index: 475
+Count: 9
+
+Node location: 00011101110110
+Left  child index: 479
+Count: 166
+Right child index: 490
+Count: 36
+
+Node location: 00011110010001
+Left  child index: 511
+Count: 147
+Right child index: 516
+Count: 21
+
+Node location: 00011110010100
+Left  child index: 521
+Count: 20
+Right child index: 522
+Count: 65
+
+Node location: 00100000100010
+Left  child index: 546
+Count: 29
+Right child index: 547
+Count: 102
+
+Node location: 00100010000001
+Left  child index: 580
+Count: 131
+Right child index: 587
+Count: 106
+
+Node location: 00100010010000
+Left  child index: 598
+Count: 59
+Right child index: 599
+Count: 117
+
+Node location: 00100010010100
+Left  child index: 613
+Count: 211
+Right child index: 624
+Count: 11
+
+Node location: 00100010100011
+Left  child index: 636
+Count: 181
+Right child index: 647
+Count: 9
+
+Node location: 00100010101010
+Left  child index: 654
+Count: 120
+Right child index: 665
+Count: 3
+
+Node location: 00100010101110
+Left  child index: 671
+Count: 171
+Right child index: 682
+Count: 9
+
+Node location: 00100010110000
+Left  child index: 689
+Count: 365
+Right child index: 704
+Count: 39
+
+Node location: 00100011000010
+Left  child index: 717
+Count: 145
+Right child index: 722
+Count: 4
+
+Node location: 00100011000100
+Left  child index: 727
+Count: 243
+Right child index: 740
+Count: 9
+
+Node location: 00100011000111
+Left  child index: 745
+Count: 62
+Right child index: 746
+Count: 24
+
+Node location: 00100011100000
+Left  child index: 761
+Count: 107
+Right child index: 764
+Count: 147
+
+Node location: 00100011100001
+Left  child index: 776
+Count: 94
+Right child index: 779
+Count: 172
+
+Node location: 00100011100100
+Left  child index: 792
+Count: 689
+Right child index: 815
+Count: 50
+
+Node location: 00100100000000
+Left  child index: 833
+Count: 98
+Right child index: 836
+Count: 17
+
+Node location: 00100100010000
+Left  child index: 846
+Count: 5
+Right child index: 847
+Count: 210
+
+Node location: 00101110000000
+Left  child index: 897
+Count: 77
+Right child index: 898
+Count: 75
+
+Node location: 00101110000110
+Left  child index: 905
+Count: 225
+Right child index: 918
+Count: 723
+
+Node location: 10000000000000
+Left  child index: 1048
+Count: 31
+Right child index: 1049
+Count: 70
+
+Node location: 10000000000001
+Left  child index: 1051
+Count: 117
+Right child index: 1058
+Count: 7
+
+Node location: 10000010001000
+Left  child index: 1082
+Count: 625
+Right child index: 1093
+Count: 46
+
+Node location: 10000010001010
+Left  child index: 1097
+Count: 120
+Right child index: 1100
+Count: 5
+
+Node location: 10001010000010
+Left  child index: 1137
+Count: 69
+Right child index: 1138
+Count: 10
+
+Node location: 10001010001100
+Left  child index: 1146
+Count: 115
+Right child index: 1147
+Count: 20
+
+Node location: 000000000010000
+Left  child index: 27
+Count: 3
+Right child index: 28
+Count: 171
+
+Node location: 000000100000001
+Left  child index: 54
+Count: 286
+Right child index: 57
+Count: 58
+
+Node location: 000000100000100
+Left  child index: 62
+Count: 51
+Right child index: 63
+Count: 307
+
+Node location: 000000100001110
+Left  child index: 84
+Count: 282
+Right child index: 93
+Count: 218
+
+Node location: 000100001000010
+Left  child index: 161
+Count: 126
+Right child index: 168
+Count: 13
+
+Node location: 000100001000100
+Left  child index: 173
+Count: 38
+Right child index: 174
+Count: 808
+
+Node location: 000100001000101
+Left  child index: 180
+Count: 4
+Right child index: 181
+Count: 101
+
+Node location: 000100001000110
+Left  child index: 184
+Count: 110
+Right child index: 193
+Count: 3
+
+Node location: 000100001001000
+Left  child index: 199
+Count: 1334
+Right child index: 214
+Count: 118
+
+Node location: 000100001001001
+Left  child index: 220
+Count: 169
+Right child index: 229
+Count: 10
+
+Node location: 000100001001010
+Left  child index: 232
+Count: 119
+Right child index: 237
+Count: 3
+
+Node location: 000100001001100
+Left  child index: 242
+Count: 127
+Right child index: 247
+Count: 21
+
+Node location: 000100001001110
+Left  child index: 251
+Count: 587
+Right child index: 260
+Count: 40
+
+Node location: 000100010001000
+Left  child index: 295
+Count: 62
+Right child index: 296
+Count: 9
+
+Node location: 000110001000000
+Left  child index: 351
+Count: 148
+Right child index: 360
+Count: 13
+
+Node location: 000110001000001
+Left  child index: 362
+Count: 17
+Right child index: 363
+Count: 99
+
+Node location: 000110001100011
+Left  child index: 378
+Count: 121
+Right child index: 381
+Count: 10
+
+Node location: 000111010000000
+Left  child index: 420
+Count: 134
+Right child index: 429
+Count: 13
+
+Node location: 000111010010010
+Left  child index: 440
+Count: 129
+Right child index: 445
+Count: 15
+
+Node location: 000111011100011
+Left  child index: 460
+Count: 102
+Right child index: 463
+Count: 6
+
+Node location: 000111011100100
+Left  child index: 467
+Count: 73
+Right child index: 468
+Count: 10
+
+Node location: 000111011101100
+Left  child index: 480
+Count: 160
+Right child index: 489
+Count: 6
+
+Node location: 000111100100010
+Left  child index: 512
+Count: 120
+Right child index: 515
+Count: 27
+
+Node location: 001000001000101
+Left  child index: 548
+Count: 98
+Right child index: 553
+Count: 4
+
+Node location: 001000100000010
+Left  child index: 581
+Count: 119
+Right child index: 586
+Count: 12
+
+Node location: 001000100000011
+Left  child index: 588
+Count: 45
+Right child index: 589
+Count: 61
+
+Node location: 001000100100001
+Left  child index: 600
+Count: 112
+Right child index: 607
+Count: 5
+
+Node location: 001000100101000
+Left  child index: 614
+Count: 97
+Right child index: 619
+Count: 114
+
+Node location: 001000101000110
+Left  child index: 637
+Count: 159
+Right child index: 646
+Count: 22
+
+Node location: 001000101010100
+Left  child index: 655
+Count: 113
+Right child index: 664
+Count: 7
+
+Node location: 001000101011100
+Left  child index: 672
+Count: 161
+Right child index: 681
+Count: 10
+
+Node location: 001000101100000
+Left  child index: 690
+Count: 308
+Right child index: 703
+Count: 57
+
+Node location: 001000110000100
+Left  child index: 718
+Count: 57
+Right child index: 719
+Count: 88
+
+Node location: 001000110001000
+Left  child index: 728
+Count: 226
+Right child index: 739
+Count: 17
+
+Node location: 001000111000000
+Left  child index: 762
+Count: 62
+Right child index: 763
+Count: 45
+
+Node location: 001000111000001
+Left  child index: 765
+Count: 120
+Right child index: 774
+Count: 27
+
+Node location: 001000111000010
+Left  child index: 777
+Count: 23
+Right child index: 778
+Count: 71
+
+Node location: 001000111000011
+Left  child index: 780
+Count: 160
+Right child index: 787
+Count: 12
+
+Node location: 001000111001000
+Left  child index: 793
+Count: 391
+Right child index: 804
+Count: 298
+
+Node location: 001001000000000
+Left  child index: 834
+Count: 33
+Right child index: 835
+Count: 65
+
+Node location: 001001000100001
+Left  child index: 848
+Count: 22
+Right child index: 849
+Count: 188
+
+Node location: 001011100001100
+Left  child index: 906
+Count: 205
+Right child index: 917
+Count: 20
+
+Node location: 001011100001101
+Left  child index: 919
+Count: 588
+Right child index: 930
+Count: 135
+
+Node location: 100000000000010
+Left  child index: 1052
+Count: 101
+Right child index: 1057
+Count: 16
+
+Node location: 100000100010000
+Left  child index: 1083
+Count: 592
+Right child index: 1092
+Count: 33
+
+Node location: 100000100010100
+Left  child index: 1098
+Count: 49
+Right child index: 1099
+Count: 71
+
+Node location: 0000000000100001
+Left  child index: 29
+Count: 159
+Right child index: 36
+Count: 12
+
+Node location: 0000001000000010
+Left  child index: 55
+Count: 213
+Right child index: 56
+Count: 73
+
+Node location: 0000001000001001
+Left  child index: 64
+Count: 268
+Right child index: 71
+Count: 39
+
+Node location: 0000001000011100
+Left  child index: 85
+Count: 262
+Right child index: 92
+Count: 20
+
+Node location: 0000001000011101
+Left  child index: 94
+Count: 185
+Right child index: 101
+Count: 33
+
+Node location: 0001000010000100
+Left  child index: 162
+Count: 115
+Right child index: 167
+Count: 11
+
+Node location: 0001000010001001
+Left  child index: 175
+Count: 727
+Right child index: 178
+Count: 81
+
+Node location: 0001000010001100
+Left  child index: 185
+Count: 101
+Right child index: 192
+Count: 9
+
+Node location: 0001000010010000
+Left  child index: 200
+Count: 1306
+Right child index: 213
+Count: 28
+
+Node location: 0001000010010001
+Left  child index: 215
+Count: 98
+Right child index: 218
+Count: 20
+
+Node location: 0001000010010010
+Left  child index: 221
+Count: 46
+Right child index: 222
+Count: 123
+
+Node location: 0001000010010100
+Left  child index: 233
+Count: 106
+Right child index: 236
+Count: 13
+
+Node location: 0001000010011000
+Left  child index: 243
+Count: 120
+Right child index: 246
+Count: 7
+
+Node location: 0001000010011100
+Left  child index: 252
+Count: 531
+Right child index: 259
+Count: 56
+
+Node location: 0001100010000000
+Left  child index: 352
+Count: 2
+Right child index: 353
+Count: 146
+
+Node location: 0001100010000011
+Left  child index: 364
+Count: 66
+Right child index: 365
+Count: 33
+
+Node location: 0001100011000110
+Left  child index: 379
+Count: 54
+Right child index: 380
+Count: 67
+
+Node location: 0001110100000000
+Left  child index: 421
+Count: 119
+Right child index: 428
+Count: 15
+
+Node location: 0001110100100100
+Left  child index: 441
+Count: 118
+Right child index: 444
+Count: 11
+
+Node location: 0001110111000110
+Left  child index: 461
+Count: 54
+Right child index: 462
+Count: 48
+
+Node location: 0001110111011000
+Left  child index: 481
+Count: 153
+Right child index: 488
+Count: 7
+
+Node location: 0001111001000100
+Left  child index: 513
+Count: 56
+Right child index: 514
+Count: 64
+
+Node location: 0010000010001010
+Left  child index: 549
+Count: 5
+Right child index: 550
+Count: 93
+
+Node location: 0010001000000100
+Left  child index: 582
+Count: 115
+Right child index: 585
+Count: 4
+
+Node location: 0010001001000010
+Left  child index: 601
+Count: 94
+Right child index: 606
+Count: 18
+
+Node location: 0010001001010000
+Left  child index: 615
+Count: 86
+Right child index: 618
+Count: 11
+
+Node location: 0010001001010001
+Left  child index: 620
+Count: 99
+Right child index: 623
+Count: 15
+
+Node location: 0010001010001100
+Left  child index: 638
+Count: 147
+Right child index: 645
+Count: 12
+
+Node location: 0010001010101000
+Left  child index: 656
+Count: 108
+Right child index: 663
+Count: 5
+
+Node location: 0010001010111000
+Left  child index: 673
+Count: 150
+Right child index: 680
+Count: 11
+
+Node location: 0010001011000000
+Left  child index: 691
+Count: 96
+Right child index: 696
+Count: 212
+
+Node location: 0010001100001001
+Left  child index: 720
+Count: 61
+Right child index: 721
+Count: 27
+
+Node location: 0010001100010000
+Left  child index: 729
+Count: 211
+Right child index: 738
+Count: 15
+
+Node location: 0010001110000010
+Left  child index: 766
+Count: 114
+Right child index: 773
+Count: 6
+
+Node location: 0010001110000110
+Left  child index: 781
+Count: 132
+Right child index: 786
+Count: 28
+
+Node location: 0010001110010000
+Left  child index: 794
+Count: 315
+Right child index: 801
+Count: 76
+
+Node location: 0010001110010001
+Left  child index: 805
+Count: 201
+Right child index: 812
+Count: 97
+
+Node location: 0010010001000011
+Left  child index: 850
+Count: 136
+Right child index: 851
+Count: 52
+
+Node location: 0010111000011000
+Left  child index: 907
+Count: 196
+Right child index: 916
+Count: 9
+
+Node location: 0010111000011010
+Left  child index: 920
+Count: 543
+Right child index: 929
+Count: 45
+
+Node location: 0010111000011011
+Left  child index: 931
+Count: 124
+Right child index: 934
+Count: 11
+
+Node location: 1000000000000100
+Left  child index: 1053
+Count: 97
+Right child index: 1056
+Count: 4
+
+Node location: 1000001000100000
+Left  child index: 1084
+Count: 196
+Right child index: 1085
+Count: 396
+
+Node location: 00000000001000010
+Left  child index: 30
+Count: 149
+Right child index: 35
+Count: 10
+
+Node location: 00000010000010010
+Left  child index: 65
+Count: 260
+Right child index: 70
+Count: 8
+
+Node location: 00000010000111000
+Left  child index: 86
+Count: 202
+Right child index: 91
+Count: 60
+
+Node location: 00000010000111010
+Left  child index: 95
+Count: 164
+Right child index: 100
+Count: 21
+
+Node location: 00010000100001000
+Left  child index: 163
+Count: 111
+Right child index: 166
+Count: 4
+
+Node location: 00010000100010010
+Left  child index: 176
+Count: 23
+Right child index: 177
+Count: 704
+
+Node location: 00010000100011000
+Left  child index: 186
+Count: 95
+Right child index: 191
+Count: 6
+
+Node location: 00010000100100000
+Left  child index: 201
+Count: 175
+Right child index: 206
+Count: 1131
+
+Node location: 00010000100100010
+Left  child index: 216
+Count: 59
+Right child index: 217
+Count: 39
+
+Node location: 00010000100100101
+Left  child index: 223
+Count: 10
+Right child index: 224
+Count: 113
+
+Node location: 00010000100101000
+Left  child index: 234
+Count: 44
+Right child index: 235
+Count: 62
+
+Node location: 00010000100110000
+Left  child index: 244
+Count: 57
+Right child index: 245
+Count: 63
+
+Node location: 00010000100111000
+Left  child index: 253
+Count: 41
+Right child index: 254
+Count: 490
+
+Node location: 00011000100000001
+Left  child index: 354
+Count: 129
+Right child index: 359
+Count: 17
+
+Node location: 00011101000000000
+Left  child index: 422
+Count: 101
+Right child index: 427
+Count: 18
+
+Node location: 00011101001001000
+Left  child index: 442
+Count: 51
+Right child index: 443
+Count: 67
+
+Node location: 00011101110110000
+Left  child index: 482
+Count: 151
+Right child index: 487
+Count: 2
+
+Node location: 00100000100010101
+Left  child index: 551
+Count: 27
+Right child index: 552
+Count: 66
+
+Node location: 00100010000001000
+Left  child index: 583
+Count: 70
+Right child index: 584
+Count: 45
+
+Node location: 00100010010000100
+Left  child index: 602
+Count: 78
+Right child index: 605
+Count: 16
+
+Node location: 00100010010100000
+Left  child index: 616
+Count: 55
+Right child index: 617
+Count: 31
+
+Node location: 00100010010100010
+Left  child index: 621
+Count: 79
+Right child index: 622
+Count: 20
+
+Node location: 00100010100011000
+Left  child index: 639
+Count: 75
+Right child index: 644
+Count: 72
+
+Node location: 00100010101010000
+Left  child index: 657
+Count: 99
+Right child index: 662
+Count: 9
+
+Node location: 00100010101110000
+Left  child index: 674
+Count: 30
+Right child index: 675
+Count: 120
+
+Node location: 00100010110000000
+Left  child index: 692
+Count: 82
+Right child index: 695
+Count: 14
+
+Node location: 00100010110000001
+Left  child index: 697
+Count: 181
+Right child index: 702
+Count: 31
+
+Node location: 00100011000100000
+Left  child index: 730
+Count: 194
+Right child index: 737
+Count: 17
+
+Node location: 00100011100000100
+Left  child index: 767
+Count: 103
+Right child index: 772
+Count: 11
+
+Node location: 00100011100001100
+Left  child index: 782
+Count: 23
+Right child index: 783
+Count: 109
+
+Node location: 00100011100100000
+Left  child index: 795
+Count: 294
+Right child index: 800
+Count: 21
+
+Node location: 00100011100100001
+Left  child index: 802
+Count: 72
+Right child index: 803
+Count: 4
+
+Node location: 00100011100100010
+Left  child index: 806
+Count: 196
+Right child index: 811
+Count: 5
+
+Node location: 00100011100100011
+Left  child index: 813
+Count: 51
+Right child index: 814
+Count: 46
+
+Node location: 00101110000110000
+Left  child index: 908
+Count: 106
+Right child index: 913
+Count: 90
+
+Node location: 00101110000110100
+Left  child index: 921
+Count: 80
+Right child index: 924
+Count: 463
+
+Node location: 00101110000110110
+Left  child index: 932
+Count: 63
+Right child index: 933
+Count: 61
+
+Node location: 10000000000001000
+Left  child index: 1054
+Count: 56
+Right child index: 1055
+Count: 41
+
+Node location: 10000010001000001
+Left  child index: 1086
+Count: 334
+Right child index: 1091
+Count: 62
+
+Node location: 000000000010000100
+Left  child index: 31
+Count: 148
+Right child index: 34
+Count: 1
+
+Node location: 000000100000100100
+Left  child index: 66
+Count: 222
+Right child index: 69
+Count: 38
+
+Node location: 000000100001110000
+Left  child index: 87
+Count: 192
+Right child index: 90
+Count: 10
+
+Node location: 000000100001110100
+Left  child index: 96
+Count: 155
+Right child index: 99
+Count: 9
+
+Node location: 000100001000010000
+Left  child index: 164
+Count: 99
+Right child index: 165
+Count: 12
+
+Node location: 000100001000110000
+Left  child index: 187
+Count: 86
+Right child index: 190
+Count: 9
+
+Node location: 000100001001000000
+Left  child index: 202
+Count: 173
+Right child index: 205
+Count: 2
+
+Node location: 000100001001000001
+Left  child index: 207
+Count: 445
+Right child index: 210
+Count: 686
+
+Node location: 000100001001001011
+Left  child index: 225
+Count: 22
+Right child index: 226
+Count: 91
+
+Node location: 000100001001110001
+Left  child index: 255
+Count: 434
+Right child index: 258
+Count: 56
+
+Node location: 000110001000000010
+Left  child index: 355
+Count: 121
+Right child index: 358
+Count: 8
+
+Node location: 000111010000000000
+Left  child index: 423
+Count: 94
+Right child index: 426
+Count: 7
+
+Node location: 000111011101100000
+Left  child index: 483
+Count: 141
+Right child index: 486
+Count: 10
+
+Node location: 001000100100001000
+Left  child index: 603
+Count: 73
+Right child index: 604
+Count: 5
+
+Node location: 001000101000110000
+Left  child index: 640
+Count: 73
+Right child index: 643
+Count: 2
+
+Node location: 001000101010100000
+Left  child index: 658
+Count: 93
+Right child index: 661
+Count: 6
+
+Node location: 001000101011100001
+Left  child index: 676
+Count: 111
+Right child index: 679
+Count: 9
+
+Node location: 001000101100000000
+Left  child index: 693
+Count: 71
+Right child index: 694
+Count: 11
+
+Node location: 001000101100000010
+Left  child index: 698
+Count: 43
+Right child index: 699
+Count: 138
+
+Node location: 001000110001000000
+Left  child index: 731
+Count: 113
+Right child index: 734
+Count: 81
+
+Node location: 001000111000001000
+Left  child index: 768
+Count: 91
+Right child index: 771
+Count: 12
+
+Node location: 001000111000011001
+Left  child index: 784
+Count: 82
+Right child index: 785
+Count: 27
+
+Node location: 001000111001000000
+Left  child index: 796
+Count: 278
+Right child index: 799
+Count: 16
+
+Node location: 001000111001000100
+Left  child index: 807
+Count: 40
+Right child index: 808
+Count: 156
+
+Node location: 001011100001100000
+Left  child index: 909
+Count: 13
+Right child index: 910
+Count: 93
+
+Node location: 001011100001100001
+Left  child index: 914
+Count: 69
+Right child index: 915
+Count: 21
+
+Node location: 001011100001101000
+Left  child index: 922
+Count: 70
+Right child index: 923
+Count: 10
+
+Node location: 001011100001101001
+Left  child index: 925
+Count: 431
+Right child index: 928
+Count: 32
+
+Node location: 100000100010000010
+Left  child index: 1087
+Count: 45
+Right child index: 1088
+Count: 289
+
+Node location: 0000000000100001000
+Left  child index: 32
+Count: 87
+Right child index: 33
+Count: 61
+
+Node location: 0000001000001001000
+Left  child index: 67
+Count: 190
+Right child index: 68
+Count: 32
+
+Node location: 0000001000011100000
+Left  child index: 88
+Count: 159
+Right child index: 89
+Count: 33
+
+Node location: 0000001000011101000
+Left  child index: 97
+Count: 136
+Right child index: 98
+Count: 19
+
+Node location: 0001000010001100000
+Left  child index: 188
+Count: 74
+Right child index: 189
+Count: 12
+
+Node location: 0001000010010000000
+Left  child index: 203
+Count: 156
+Right child index: 204
+Count: 17
+
+Node location: 0001000010010000010
+Left  child index: 208
+Count: 400
+Right child index: 209
+Count: 45
+
+Node location: 0001000010010000011
+Left  child index: 211
+Count: 589
+Right child index: 212
+Count: 97
+
+Node location: 0001000010010010111
+Left  child index: 227
+Count: 51
+Right child index: 228
+Count: 40
+
+Node location: 0001000010011100010
+Left  child index: 256
+Count: 378
+Right child index: 257
+Count: 56
+
+Node location: 0001100010000000100
+Left  child index: 356
+Count: 94
+Right child index: 357
+Count: 27
+
+Node location: 0001110100000000000
+Left  child index: 424
+Count: 89
+Right child index: 425
+Count: 5
+
+Node location: 0001110111011000000
+Left  child index: 484
+Count: 34
+Right child index: 485
+Count: 107
+
+Node location: 0010001010001100000
+Left  child index: 641
+Count: 54
+Right child index: 642
+Count: 19
+
+Node location: 0010001010101000000
+Left  child index: 659
+Count: 85
+Right child index: 660
+Count: 8
+
+Node location: 0010001010111000010
+Left  child index: 677
+Count: 105
+Right child index: 678
+Count: 6
+
+Node location: 0010001011000000101
+Left  child index: 700
+Count: 4
+Right child index: 701
+Count: 134
+
+Node location: 0010001100010000000
+Left  child index: 732
+Count: 101
+Right child index: 733
+Count: 12
+
+Node location: 0010001100010000001
+Left  child index: 735
+Count: 78
+Right child index: 736
+Count: 3
+
+Node location: 0010001110000010000
+Left  child index: 769
+Count: 23
+Right child index: 770
+Count: 68
+
+Node location: 0010001110010000000
+Left  child index: 797
+Count: 100
+Right child index: 798
+Count: 178
+
+Node location: 0010001110010001001
+Left  child index: 809
+Count: 45
+Right child index: 810
+Count: 111
+
+Node location: 0010111000011000001
+Left  child index: 911
+Count: 86
+Right child index: 912
+Count: 7
+
+Node location: 0010111000011010010
+Left  child index: 926
+Count: 10
+Right child index: 927
+Count: 421
+
+Node location: 1000001000100000101
+Left  child index: 1089
+Count: 228
+Right child index: 1090
+Count: 61
+

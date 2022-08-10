@@ -1,0 +1,22 @@
+{
+    "aspiration": "Aspirated",
+    "assembled": "Locally Built",
+    "price": 14800.0,
+    "brand": "Perodua",
+    "colour": "White",
+    "direct_injection": "Multi-Point Injected",
+    "doors": 5,
+    "engine_cc": 989.0,
+    "fuel_type": "Petrol - Unleaded (ULP)",
+    "height_mm": 1430.0,
+    "length_mm": 3490.0,
+    "manufacture_year": 2003,
+    "mileage": 155000.0,
+    "peak_power_hp": 55.0,
+    "peak_torque_nm": 88.0,
+    "seat_capacity": 5,
+    "steering_type": "Rack and Pinion",
+    "transmission": "Automatic",
+    "wheel_base_mm": 2360.0,
+    "width_mm": 1490.0
+}

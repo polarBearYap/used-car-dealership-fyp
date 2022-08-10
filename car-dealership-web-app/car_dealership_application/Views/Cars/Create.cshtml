@@ -1,0 +1,199 @@
+﻿@model CarViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    ViewData["Subject"] = "Car";
+}
+
+<div class="container-fluid px-4" role="main">
+    <h1 class="mt-4">@ViewData["Title"] @ViewData["Subject"]</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item">
+            <a asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a asp-area="" asp-controller="Cars" asp-action="Index">@ViewData["Subject"]</a>
+        </li>
+        <li class="breadcrumb-item active">
+            @ViewData["Title"]
+        </li>
+    </ol>
+</div>
+
+<div class="row container-fluid table-container m-0 px-3 pb-3">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="CarBrandID" class="control-label"></label>
+                <select asp-for="CarBrandID" class="form-control" asp-items="ViewBag.BrandItems"
+                        id="brand-target">
+                    <option value="">-- Select Brand --</option>
+                </select>
+                <span asp-validation-for="CarBrandID" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="CarModelID" class="control-label"></label>
+                @if (ViewBag.ModelItems == null)
+                {
+                    <select asp-for="CarModelID" class="form-control" id="model-target">
+                    </select>
+                }
+                else
+                {
+                    <select asp-for="CarModelID" class="form-control" asp-items="ViewBag.ModelItems"
+                            id="model-target">
+                    </select>
+                }
+                <span asp-validation-for="CarModelID" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Aspiration" class="control-label"></label>
+                <select asp-for="Aspiration" class="form-control" asp-items="ViewBag.AspirationItems">
+                    <option value="">-- Select Aspiration --</option>
+                </select>
+                <span asp-validation-for="Aspiration" class="text-danger" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Assembled" class="control-label"></label>
+                <select asp-for="Assembled" class="form-control" asp-items="ViewBag.AssembledItems">
+                    <option value="">-- Select Assembled Type --</option>
+                </select>
+                <span asp-validation-for="Assembled" class="text-danger" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Colour" class="control-label"></label>
+                <input asp-for="Colour" class="form-control" />
+                <span asp-validation-for="Colour" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="DirectInjection" class="control-label"></label>
+                <select asp-for="DirectInjection" class="form-control" asp-items="ViewBag.DirectInjectionItems">
+                    <option value="">-- Select Direct Injection --</option>
+                </select>
+                <span asp-validation-for="DirectInjection" class="text-danger" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Doors" class="control-label"></label>
+                <input asp-for="Doors" class="form-control" />
+                <span asp-validation-for="Doors" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="EngineCC" class="control-label"></label>
+                <input asp-for="EngineCC" class="form-control" />
+                <span asp-validation-for="EngineCC" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="FuelType" class="control-label"></label>
+                <select asp-for="FuelType" class="form-control" asp-items="ViewBag.FuelTypeItems">
+                    <option value="">-- Select Fuel Type --</option>
+                </select>
+                <span asp-validation-for="FuelType" class="text-danger" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="HeightMM" class="control-label"></label>
+                <input asp-for="HeightMM" class="form-control" />
+                <span asp-validation-for="HeightMM" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="LengthMM" class="control-label"></label>
+                <input asp-for="LengthMM" class="form-control" />
+                <span asp-validation-for="LengthMM" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="ManufactureYear" class="control-label"></label>
+                <input asp-for="ManufactureYear" class="form-control" />
+                <span asp-validation-for="ManufactureYear" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Mileage" class="control-label"></label>
+                <input asp-for="Mileage" class="form-control" />
+                <span asp-validation-for="Mileage" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="PeakPowerHP" class="control-label"></label>
+                <input asp-for="PeakPowerHP" class="form-control" />
+                <span asp-validation-for="PeakPowerHP" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="PeakTorqueNM" class="control-label"></label>
+                <input asp-for="PeakTorqueNM" class="form-control" />
+                <span asp-validation-for="PeakTorqueNM" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="SeatCapacity" class="control-label"></label>
+                <input asp-for="SeatCapacity" class="form-control" />
+                <span asp-validation-for="SeatCapacity" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="SteeringType" class="control-label"></label>
+                <select asp-for="SteeringType" class="form-control" asp-items="ViewBag.SteeringTypeItems">
+                    <option value="">-- Select Steering Type --</option>
+                </select>
+                <span asp-validation-for="SteeringType" class="text-danger" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Transmission" class="control-label"></label>
+                <select asp-for="Transmission" class="form-control" asp-items="ViewBag.TransmissionItems">
+                    <option value="">-- Select Transmission --</option>
+                </select>
+                <span asp-validation-for="Transmission" class="text-danger" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="WheelBaseMM" class="control-label"></label>
+                <input asp-for="WheelBaseMM" class="form-control" />
+                <span asp-validation-for="WheelBaseMM" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="WidthMM" class="control-label"></label>
+                <input asp-for="WidthMM" class="form-control" />
+                <span asp-validation-for="WidthMM" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="UpdateAnalytics" class="control-label"></label>
+                <select asp-for="UpdateAnalytics" class="form-control" asp-items="ViewBag.UpdateAnalyticsItems">
+                    <option value="">-- Select Update Option --</option>
+                </select>
+                <span asp-validation-for="UpdateAnalytics" class="text-danger" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="PredictedPrice" class="control-label"></label>
+                <input asp-for="PredictedPrice" class="form-control" />
+                <span asp-validation-for="PredictedPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="PricePerMonth" class="control-label"></label>
+                <input asp-for="PricePerMonth" class="form-control" />
+                <span asp-validation-for="PricePerMonth" class="text-danger"></span>
+            </div>
+            <input type="hidden" name="prevURL" value="@ViewData["PrevURL"]">
+            <div class="form-group mb-3">
+                <button type="submit" value="Create" class="btn btn-primary"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Create">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    &nbsp;&nbsp;Create
+                </button>
+                &nbsp;|&nbsp;
+                <a href="@ViewData["PrevURL"]" class="text-decoration-none"
+                   data-bs-toggle="tooltip" data-bs-placement="top" title="Back to List">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    &nbsp;&nbsp;Back to List
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

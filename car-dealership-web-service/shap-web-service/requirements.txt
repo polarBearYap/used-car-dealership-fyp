@@ -1,0 +1,6 @@
+Flask-RESTful==0.3.9
+matplotlib==3.5.1
+plotly==5.7.0
+pyodbc==4.0.32
+requests==2.27.1
+shap==0.40.0

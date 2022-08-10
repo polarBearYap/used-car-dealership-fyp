@@ -1,0 +1,37 @@
+{
+  "name": "car_dealership_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=development",
+    "release": "webpack --mode=production",
+    "publish": "npm run release && dotnet publish -c Release"
+  },
+  "author": "Yap Jheng Khin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bootstrap": "5.0.17",
+    "@types/jquery": "3.5.6",
+    "@types/node": "16.0.1",
+    "es6-promise": "4.2.8",
+    "gulp": "4.0.2",
+    "gutil": "1.6.4",
+    "loader-utils": "2.0.0",
+    "source-map-loader": "3.0.0",
+    "ts-loader": "9.2.3",
+    "typescript": "4.3.5",
+    "webpack": "5.43.0",
+    "webpack-cli": "4.7.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "2.9.2",
+    "bootstrap": "5.0.2",
+    "chart.js": "3.4.1",
+    "chartjs-plugin-zoom": "^1.1.1",
+    "es6-promises": "1.0.10",
+    "jquery": "3.6.0",
+    "timers-browserify": "2.0.12"
+  }
+}

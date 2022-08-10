@@ -1,0 +1,2880 @@
+
+        CarModel Bmw430I = new CarModel
+        {
+            Name="430i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw540I = new CarModel
+        {
+            Name="540i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw218I = new CarModel
+        {
+            Name="218i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw740I = new CarModel
+        {
+            Name="740i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwI8 = new CarModel
+        {
+            Name="i8",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw318I = new CarModel
+        {
+            Name="318i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw330I = new CarModel
+        {
+            Name="330i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw220I = new CarModel
+        {
+            Name="220i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw520I = new CarModel
+        {
+            Name="520i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwX3 = new CarModel
+        {
+            Name="X3",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw528I = new CarModel
+        {
+            Name="528i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw316I = new CarModel
+        {
+            Name="316i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwX5 = new CarModel
+        {
+            Name="X5",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw325I = new CarModel
+        {
+            Name="325i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwM2 = new CarModel
+        {
+            Name="M2",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw640I = new CarModel
+        {
+            Name="640i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwM340I = new CarModel
+        {
+            Name="M340i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw335I = new CarModel
+        {
+            Name="335i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw118I = new CarModel
+        {
+            Name="118i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw730Li = new CarModel
+        {
+            Name="730Li",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw630I = new CarModel
+        {
+            Name="630i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw120I = new CarModel
+        {
+            Name="120i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwM6 = new CarModel
+        {
+            Name="M6",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw740Li = new CarModel
+        {
+            Name="740Li",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwX4 = new CarModel
+        {
+            Name="X4",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw428I = new CarModel
+        {
+            Name="428i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw520D = new CarModel
+        {
+            Name="520d",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw535I = new CarModel
+        {
+            Name="535i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwX6 = new CarModel
+        {
+            Name="X6",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw330E = new CarModel
+        {
+            Name="330e",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw323I = new CarModel
+        {
+            Name="323i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw328I = new CarModel
+        {
+            Name="328i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwM3 = new CarModel
+        {
+            Name="M3",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw523I = new CarModel
+        {
+            Name="523i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw530I = new CarModel
+        {
+            Name="530i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwM4 = new CarModel
+        {
+            Name="M4",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw320I = new CarModel
+        {
+            Name="320i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw730Ld = new CarModel
+        {
+            Name="730Ld",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw740Le = new CarModel
+        {
+            Name="740Le",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw320D = new CarModel
+        {
+            Name="320d",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwX2 = new CarModel
+        {
+            Name="X2",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw525I = new CarModel
+        {
+            Name="525i",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwM5 = new CarModel
+        {
+            Name="M5",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel Bmw530E = new CarModel
+        {
+            Name="530e",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel BmwX1 = new CarModel
+        {
+            Name="X1",
+            CarBrandID=BMW.ID,
+            CarBrand=BMW
+        };
+        
+
+        CarModel FordRanger = new CarModel
+        {
+            Name="Ranger",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordEverest = new CarModel
+        {
+            Name="Everest",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordSMax = new CarModel
+        {
+            Name="S-Max",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordKuga = new CarModel
+        {
+            Name="Kuga",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordMondeo = new CarModel
+        {
+            Name="Mondeo",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordFocus = new CarModel
+        {
+            Name="Focus",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordMustang = new CarModel
+        {
+            Name="Mustang",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordFiesta = new CarModel
+        {
+            Name="Fiesta",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordEcosport = new CarModel
+        {
+            Name="EcoSport",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel FordEscape = new CarModel
+        {
+            Name="Escape",
+            CarBrandID=Ford.ID,
+            CarBrand=Ford
+        };
+        
+
+        CarModel HondaCrV = new CarModel
+        {
+            Name="CR-V",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaElysion = new CarModel
+        {
+            Name="Elysion",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaBrV = new CarModel
+        {
+            Name="BR-V",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaJazz = new CarModel
+        {
+            Name="Jazz",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaFreed = new CarModel
+        {
+            Name="Freed",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaStream = new CarModel
+        {
+            Name="Stream",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaCivic = new CarModel
+        {
+            Name="Civic",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaAccord = new CarModel
+        {
+            Name="Accord",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaOdyssey = new CarModel
+        {
+            Name="Odyssey",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaInsight = new CarModel
+        {
+            Name="Insight",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaHrV = new CarModel
+        {
+            Name="HR-V",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaCrZ = new CarModel
+        {
+            Name="CR-Z",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HondaCity = new CarModel
+        {
+            Name="City",
+            CarBrandID=Honda.ID,
+            CarBrand=Honda
+        };
+        
+
+        CarModel HyundaiSonata = new CarModel
+        {
+            Name="Sonata",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiTucson = new CarModel
+        {
+            Name="Tucson",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiSantaFe = new CarModel
+        {
+            Name="Santa Fe",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiI10 = new CarModel
+        {
+            Name="i10",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiMatrix = new CarModel
+        {
+            Name="Matrix",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiIoniq = new CarModel
+        {
+            Name="Ioniq",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiVeloster = new CarModel
+        {
+            Name="Veloster",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiElantra = new CarModel
+        {
+            Name="Elantra",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiGenesis = new CarModel
+        {
+            Name="Genesis",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiCoupe = new CarModel
+        {
+            Name="Coupe",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiI30 = new CarModel
+        {
+            Name="i30",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiAccent = new CarModel
+        {
+            Name="Accent",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiGrandStarex = new CarModel
+        {
+            Name="Grand Starex",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiGetz = new CarModel
+        {
+            Name="Getz",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiAtos = new CarModel
+        {
+            Name="Atos",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel HyundaiI40 = new CarModel
+        {
+            Name="i40",
+            CarBrandID=Hyundai.ID,
+            CarBrand=Hyundai
+        };
+        
+
+        CarModel JaguarFPace = new CarModel
+        {
+            Name="F-Pace",
+            CarBrandID=Jaguar.ID,
+            CarBrand=Jaguar
+        };
+        
+
+        CarModel JaguarSType = new CarModel
+        {
+            Name="S-Type",
+            CarBrandID=Jaguar.ID,
+            CarBrand=Jaguar
+        };
+        
+
+        CarModel JaguarXType = new CarModel
+        {
+            Name="X-Type",
+            CarBrandID=Jaguar.ID,
+            CarBrand=Jaguar
+        };
+        
+
+        CarModel JaguarDaimler = new CarModel
+        {
+            Name="Daimler",
+            CarBrandID=Jaguar.ID,
+            CarBrand=Jaguar
+        };
+        
+
+        CarModel JaguarXj6 = new CarModel
+        {
+            Name="XJ6",
+            CarBrandID=Jaguar.ID,
+            CarBrand=Jaguar
+        };
+        
+
+        CarModel JaguarXf = new CarModel
+        {
+            Name="XF",
+            CarBrandID=Jaguar.ID,
+            CarBrand=Jaguar
+        };
+        
+
+        CarModel JaguarXj = new CarModel
+        {
+            Name="XJ",
+            CarBrandID=Jaguar.ID,
+            CarBrand=Jaguar
+        };
+        
+
+        CarModel KiaForteKoup = new CarModel
+        {
+            Name="Forte Koup",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaRio = new CarModel
+        {
+            Name="Rio",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaPicanto = new CarModel
+        {
+            Name="Picanto",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaGrandCarnival = new CarModel
+        {
+            Name="Grand Carnival",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaForte = new CarModel
+        {
+            Name="Forte",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaSorento = new CarModel
+        {
+            Name="Sorento",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaSpectra = new CarModel
+        {
+            Name="Spectra",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaCerato = new CarModel
+        {
+            Name="Cerato",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaOptimaK5 = new CarModel
+        {
+            Name="Optima K5",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel KiaSportage = new CarModel
+        {
+            Name="Sportage",
+            CarBrandID=Kia.ID,
+            CarBrand=Kia
+        };
+        
+
+        CarModel LandRoverDefender = new CarModel
+        {
+            Name="Defender",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LandRoverDiscoverySport = new CarModel
+        {
+            Name="Discovery Sport",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LandRoverRangeRoverSport = new CarModel
+        {
+            Name="Range Rover Sport",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LandRoverRangeRoverEvoque = new CarModel
+        {
+            Name="Range Rover Evoque",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LandRoverRangeRoverVelar = new CarModel
+        {
+            Name="Range Rover Velar",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LandRoverFreelander = new CarModel
+        {
+            Name="Freelander",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LandRoverFreelander2 = new CarModel
+        {
+            Name="Freelander 2",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LandRoverDiscovery4 = new CarModel
+        {
+            Name="Discovery 4",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LandRoverRangeRover = new CarModel
+        {
+            Name="Range Rover",
+            CarBrandID=LandRover.ID,
+            CarBrand=LandRover
+        };
+        
+
+        CarModel LexusCt200H = new CarModel
+        {
+            Name="CT200h",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusNx200T = new CarModel
+        {
+            Name="NX200t",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusNx300 = new CarModel
+        {
+            Name="NX300",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusRx350 = new CarModel
+        {
+            Name="RX350",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusRx270 = new CarModel
+        {
+            Name="RX270",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusLs460L = new CarModel
+        {
+            Name="LS460L",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusRx450H = new CarModel
+        {
+            Name="RX450h",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusLx570 = new CarModel
+        {
+            Name="LX570",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusGs300 = new CarModel
+        {
+            Name="GS300",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusRx200T = new CarModel
+        {
+            Name="RX200t",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusGs350 = new CarModel
+        {
+            Name="GS350",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusGs250 = new CarModel
+        {
+            Name="GS250",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusIs250 = new CarModel
+        {
+            Name="IS250",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusLs460 = new CarModel
+        {
+            Name="LS460",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusEs250 = new CarModel
+        {
+            Name="ES250",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusLc500 = new CarModel
+        {
+            Name="LC500",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel LexusRx350L = new CarModel
+        {
+            Name="RX350L",
+            CarBrandID=Lexus.ID,
+            CarBrand=Lexus
+        };
+        
+
+        CarModel Mini5Door = new CarModel
+        {
+            Name="5 Door",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel MiniAustinMorris = new CarModel
+        {
+            Name="Austin Morris",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel MiniCountryman = new CarModel
+        {
+            Name="Countryman",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel MiniCrossover = new CarModel
+        {
+            Name="Crossover",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel MiniPaceman = new CarModel
+        {
+            Name="Paceman",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel MiniCooper = new CarModel
+        {
+            Name="Cooper",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel MiniClubman = new CarModel
+        {
+            Name="Clubman",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel Mini3Door = new CarModel
+        {
+            Name="3 Door",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel MiniMk2 = new CarModel
+        {
+            Name="MK2",
+            CarBrandID=Mini.ID,
+            CarBrand=Mini
+        };
+        
+
+        CarModel MazdaCx9 = new CarModel
+        {
+            Name="CX-9",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel Mazda8 = new CarModel
+        {
+            Name=" 8",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaCx30 = new CarModel
+        {
+            Name="CX-30",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel Mazda6 = new CarModel
+        {
+            Name=" 6",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel Mazda5 = new CarModel
+        {
+            Name=" 5",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaCx3 = new CarModel
+        {
+            Name="CX-3",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaFighter = new CarModel
+        {
+            Name="Fighter",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaCx7 = new CarModel
+        {
+            Name="CX-7",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaRx8 = new CarModel
+        {
+            Name="RX-8",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaBongo = new CarModel
+        {
+            Name="Bongo",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel Mazda3 = new CarModel
+        {
+            Name=" 3",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaBiante = new CarModel
+        {
+            Name="Biante",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel Mazda2 = new CarModel
+        {
+            Name=" 2",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaBt50 = new CarModel
+        {
+            Name="BT-50",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MazdaCx5 = new CarModel
+        {
+            Name="CX-5",
+            CarBrandID=Mazda.ID,
+            CarBrand=Mazda
+        };
+        
+
+        CarModel MercedesBenzC200 = new CarModel
+        {
+            Name="C200",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzCla250 = new CarModel
+        {
+            Name="CLA250",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzMl350 = new CarModel
+        {
+            Name="ML350",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzS350 = new CarModel
+        {
+            Name="S350",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzA250 = new CarModel
+        {
+            Name="A250",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzSlk200K = new CarModel
+        {
+            Name="SLK200K",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzS400L = new CarModel
+        {
+            Name="S400L",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzVito = new CarModel
+        {
+            Name="Vito",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzS500L = new CarModel
+        {
+            Name="S500L",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzCla200 = new CarModel
+        {
+            Name="CLA200",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGle43 = new CarModel
+        {
+            Name="GLE43",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzSlk200 = new CarModel
+        {
+            Name="SLK200",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGlc43Amg = new CarModel
+        {
+            Name="GLC43 AMG",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzS350L = new CarModel
+        {
+            Name="S350L",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE350Cgi = new CarModel
+        {
+            Name="E350 CGI",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzB180 = new CarModel
+        {
+            Name="B180",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGla45Amg = new CarModel
+        {
+            Name="GLA45 AMG",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzAmgGt63S = new CarModel
+        {
+            Name="AMG GT 63 S",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzR350L = new CarModel
+        {
+            Name="R350L",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzA200 = new CarModel
+        {
+            Name="A200",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGle250 = new CarModel
+        {
+            Name="GLE250",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE240 = new CarModel
+        {
+            Name="E240",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE200K = new CarModel
+        {
+            Name="E200K",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzCla180 = new CarModel
+        {
+            Name="CLA180",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC43Amg = new CarModel
+        {
+            Name="C43 AMG",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzS300L = new CarModel
+        {
+            Name="S300L",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE280 = new CarModel
+        {
+            Name="E280",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC220Cdi = new CarModel
+        {
+            Name="C220 CDI",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC200K = new CarModel
+        {
+            Name="C200K",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC300 = new CarModel
+        {
+            Name="C300",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE300 = new CarModel
+        {
+            Name="E300",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzS280 = new CarModel
+        {
+            Name="S280",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGlc200 = new CarModel
+        {
+            Name="GLC200",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGla180 = new CarModel
+        {
+            Name="GLA180",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGlc250 = new CarModel
+        {
+            Name="GLC250",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzViano = new CarModel
+        {
+            Name="Viano",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGle400 = new CarModel
+        {
+            Name="GLE400",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC180K = new CarModel
+        {
+            Name="C180K",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzS450L = new CarModel
+        {
+            Name="S450L",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzS560E = new CarModel
+        {
+            Name="S560 e",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC180Cgi = new CarModel
+        {
+            Name="C180 CGI",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzSlk250 = new CarModel
+        {
+            Name="SLK250",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC250Cgi = new CarModel
+        {
+            Name="C250 CGI",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE350E = new CarModel
+        {
+            Name="E350 e",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzCla45Amg = new CarModel
+        {
+            Name="CLA45 AMG",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE400 = new CarModel
+        {
+            Name="E400",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC250 = new CarModel
+        {
+            Name="C250",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC230 = new CarModel
+        {
+            Name="C230",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGla200 = new CarModel
+        {
+            Name="GLA200",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGla250 = new CarModel
+        {
+            Name="GLA250",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE250Cgi = new CarModel
+        {
+            Name="E250 CGI",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE270Cdi = new CarModel
+        {
+            Name="E270 CDI",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzB200 = new CarModel
+        {
+            Name="B200",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC230K = new CarModel
+        {
+            Name="C230K",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE250 = new CarModel
+        {
+            Name="E250",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzA45Amg = new CarModel
+        {
+            Name="A45 AMG",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE200Cgi = new CarModel
+        {
+            Name="E200 CGI",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzVaneo = new CarModel
+        {
+            Name="Vaneo",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC320 = new CarModel
+        {
+            Name="C320",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE200 = new CarModel
+        {
+            Name="E200",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzCls350 = new CarModel
+        {
+            Name="CLS350",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC180 = new CarModel
+        {
+            Name="C180",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzA180 = new CarModel
+        {
+            Name="A180",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzGls63Amg = new CarModel
+        {
+            Name="GLS63 AMG",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE350 = new CarModel
+        {
+            Name="E350",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzE230 = new CarModel
+        {
+            Name="E230",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC200Cgi = new CarModel
+        {
+            Name="C200 CGI",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MercedesBenzC350E = new CarModel
+        {
+            Name="C350 e",
+            CarBrandID=MercedesBenz.ID,
+            CarBrand=MercedesBenz
+        };
+        
+
+        CarModel MitsubishiL200 = new CarModel
+        {
+            Name="L200",
+            CarBrandID=Mitsubishi.ID,
+            CarBrand=Mitsubishi
+        };
+        
+
+        CarModel MitsubishiStorm = new CarModel
+        {
+            Name="Storm",
+            CarBrandID=Mitsubishi.ID,
+            CarBrand=Mitsubishi
+        };
+        
+
+        CarModel MitsubishiTriton = new CarModel
+        {
+            Name="Triton",
+            CarBrandID=Mitsubishi.ID,
+            CarBrand=Mitsubishi
+        };
+        
+
+        CarModel NissanGtR = new CarModel
+        {
+            Name="GT-R",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanUrvan = new CarModel
+        {
+            Name="Urvan",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanJuke = new CarModel
+        {
+            Name="JUKE",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanMurano = new CarModel
+        {
+            Name="Murano",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanNavara = new CarModel
+        {
+            Name="Navara",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanSentra = new CarModel
+        {
+            Name="Sentra",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanSylphy = new CarModel
+        {
+            Name="Sylphy",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanLivinaXGear = new CarModel
+        {
+            Name="Livina X-Gear",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanNv200 = new CarModel
+        {
+            Name="NV200",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanLatio = new CarModel
+        {
+            Name="Latio",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanFairladyZ = new CarModel
+        {
+            Name="Fairlady Z",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanGrandLivina = new CarModel
+        {
+            Name="Grand Livina",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanNv350Urvan = new CarModel
+        {
+            Name="NV350 Urvan",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanAlmera = new CarModel
+        {
+            Name="Almera",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanTeana = new CarModel
+        {
+            Name="Teana",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanSerena = new CarModel
+        {
+            Name="Serena",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanXTrail = new CarModel
+        {
+            Name="X-Trail",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanFrontier = new CarModel
+        {
+            Name="Frontier",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanDualis = new CarModel
+        {
+            Name="Dualis",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanCefiro = new CarModel
+        {
+            Name="Cefiro",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel NissanElgrand = new CarModel
+        {
+            Name="Elgrand",
+            CarBrandID=Nissan.ID,
+            CarBrand=Nissan
+        };
+        
+
+        CarModel PeroduaBezza = new CarModel
+        {
+            Name="Bezza",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaAruz = new CarModel
+        {
+            Name="Aruz",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaKenari = new CarModel
+        {
+            Name="Kenari",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaAlza = new CarModel
+        {
+            Name="Alza",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaKancil = new CarModel
+        {
+            Name="Kancil",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaAxia = new CarModel
+        {
+            Name="Axia",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaMyvi = new CarModel
+        {
+            Name="Myvi",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaKembara = new CarModel
+        {
+            Name="Kembara",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaViva = new CarModel
+        {
+            Name="Viva",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel PeroduaKelisa = new CarModel
+        {
+            Name="Kelisa",
+            CarBrandID=Perodua.ID,
+            CarBrand=Perodua
+        };
+        
+
+        CarModel Peugeot2008 = new CarModel
+        {
+            Name="2008",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot406 = new CarModel
+        {
+            Name="406",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel PeugeotRcz = new CarModel
+        {
+            Name="RCZ",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot306 = new CarModel
+        {
+            Name="306",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot5008 = new CarModel
+        {
+            Name="5008",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot308 = new CarModel
+        {
+            Name="308",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot3008 = new CarModel
+        {
+            Name="3008",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot508 = new CarModel
+        {
+            Name="508",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot407 = new CarModel
+        {
+            Name="407",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot207 = new CarModel
+        {
+            Name="207",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot408 = new CarModel
+        {
+            Name="408",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel Peugeot208 = new CarModel
+        {
+            Name="208",
+            CarBrandID=Peugeot.ID,
+            CarBrand=Peugeot
+        };
+        
+
+        CarModel PorscheCayenne = new CarModel
+        {
+            Name="Cayenne",
+            CarBrandID=Porsche.ID,
+            CarBrand=Porsche
+        };
+        
+
+        CarModel Porsche718 = new CarModel
+        {
+            Name="718",
+            CarBrandID=Porsche.ID,
+            CarBrand=Porsche
+        };
+        
+
+        CarModel Porsche911 = new CarModel
+        {
+            Name="911",
+            CarBrandID=Porsche.ID,
+            CarBrand=Porsche
+        };
+        
+
+        CarModel PorscheMacan = new CarModel
+        {
+            Name="Macan",
+            CarBrandID=Porsche.ID,
+            CarBrand=Porsche
+        };
+        
+
+        CarModel PorscheBoxster = new CarModel
+        {
+            Name="Boxster",
+            CarBrandID=Porsche.ID,
+            CarBrand=Porsche
+        };
+        
+
+        CarModel PorscheCayman = new CarModel
+        {
+            Name="Cayman",
+            CarBrandID=Porsche.ID,
+            CarBrand=Porsche
+        };
+        
+
+        CarModel PorschePanamera = new CarModel
+        {
+            Name="Panamera",
+            CarBrandID=Porsche.ID,
+            CarBrand=Porsche
+        };
+        
+
+        CarModel ProtonWaja = new CarModel
+        {
+            Name="Waja",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonPersona = new CarModel
+        {
+            Name="Persona",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonExora = new CarModel
+        {
+            Name="Exora",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonErtiga = new CarModel
+        {
+            Name="Ertiga",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonInspira = new CarModel
+        {
+            Name="Inspira",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonPreve = new CarModel
+        {
+            Name="Preve",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonWira = new CarModel
+        {
+            Name="Wira",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonSaga = new CarModel
+        {
+            Name="Saga",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonIriz = new CarModel
+        {
+            Name="Iriz",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonPerdana = new CarModel
+        {
+            Name="Perdana",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonIswara = new CarModel
+        {
+            Name="Iswara",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonGen2 = new CarModel
+        {
+            Name="Gen-2",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonSavvy = new CarModel
+        {
+            Name="Savvy",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonSatria = new CarModel
+        {
+            Name="Satria",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonX70 = new CarModel
+        {
+            Name="X70",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel ProtonSuprimaS = new CarModel
+        {
+            Name="Suprima S",
+            CarBrandID=Proton.ID,
+            CarBrand=Proton
+        };
+        
+
+        CarModel RenaultScenic = new CarModel
+        {
+            Name="Scenic",
+            CarBrandID=Renault.ID,
+            CarBrand=Renault
+        };
+        
+
+        CarModel RenaultFluence = new CarModel
+        {
+            Name="Fluence",
+            CarBrandID=Renault.ID,
+            CarBrand=Renault
+        };
+        
+
+        CarModel RenaultKoleos = new CarModel
+        {
+            Name="Koleos",
+            CarBrandID=Renault.ID,
+            CarBrand=Renault
+        };
+        
+
+        CarModel RenaultKangoo = new CarModel
+        {
+            Name="Kangoo",
+            CarBrandID=Renault.ID,
+            CarBrand=Renault
+        };
+        
+
+        CarModel RenaultCaptur = new CarModel
+        {
+            Name="Captur",
+            CarBrandID=Renault.ID,
+            CarBrand=Renault
+        };
+        
+
+        CarModel SubaruImpreza = new CarModel
+        {
+            Name="Impreza",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel SubaruOutback = new CarModel
+        {
+            Name="Outback",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel SubaruWrx = new CarModel
+        {
+            Name="WRX",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel SubaruLevorg = new CarModel
+        {
+            Name="Levorg",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel SubaruBrz = new CarModel
+        {
+            Name="BRZ",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel SubaruLegacy = new CarModel
+        {
+            Name="Legacy",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel SubaruWrxSti = new CarModel
+        {
+            Name="WRX STi",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel SubaruXv = new CarModel
+        {
+            Name="XV",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel SubaruForester = new CarModel
+        {
+            Name="Forester",
+            CarBrandID=Subaru.ID,
+            CarBrand=Subaru
+        };
+        
+
+        CarModel ToyotaRav4 = new CarModel
+        {
+            Name="RAV4",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaPrius = new CarModel
+        {
+            Name="Prius",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaRush = new CarModel
+        {
+            Name="Rush",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaIpsum = new CarModel
+        {
+            Name="Ipsum",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaCorolla = new CarModel
+        {
+            Name="Corolla",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaAvanza = new CarModel
+        {
+            Name="Avanza",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaFortuner = new CarModel
+        {
+            Name="Fortuner",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaCorollaAltis = new CarModel
+        {
+            Name="Corolla Altis",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaWish = new CarModel
+        {
+            Name="Wish",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaMarkX = new CarModel
+        {
+            Name="Mark X",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaNadia = new CarModel
+        {
+            Name="Nadia",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaInnova = new CarModel
+        {
+            Name="Innova",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaFjCruiser = new CarModel
+        {
+            Name="FJ Cruiser",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaLandCruiser = new CarModel
+        {
+            Name="Land Cruiser",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaUnser = new CarModel
+        {
+            Name="Unser",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaHilux = new CarModel
+        {
+            Name="Hilux",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaPriusC = new CarModel
+        {
+            Name="Prius C",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaHarrier = new CarModel
+        {
+            Name="Harrier",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaLandCruiserPrado = new CarModel
+        {
+            Name="Land Cruiser Prado",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaCamry = new CarModel
+        {
+            Name="Camry",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaSienta = new CarModel
+        {
+            Name="Sienta",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaCaldina = new CarModel
+        {
+            Name="Caldina",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaYaris = new CarModel
+        {
+            Name="Yaris",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaVellfire = new CarModel
+        {
+            Name="Vellfire",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaCHr = new CarModel
+        {
+            Name="C-HR",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaVios = new CarModel
+        {
+            Name="Vios",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaAlphard = new CarModel
+        {
+            Name="Alphard",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaEstima = new CarModel
+        {
+            Name="Estima",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel ToyotaPrevia = new CarModel
+        {
+            Name="Previa",
+            CarBrandID=Toyota.ID,
+            CarBrand=Toyota
+        };
+        
+
+        CarModel VolkswagenVento = new CarModel
+        {
+            Name="Vento",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenArteon = new CarModel
+        {
+            Name="Arteon",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenTouareg = new CarModel
+        {
+            Name="Touareg",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenGolf = new CarModel
+        {
+            Name="Golf",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenBeetle = new CarModel
+        {
+            Name="Beetle",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenScirocco = new CarModel
+        {
+            Name="Scirocco",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenSharan = new CarModel
+        {
+            Name="Sharan",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenCc = new CarModel
+        {
+            Name="CC",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenTiguan = new CarModel
+        {
+            Name="Tiguan",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenCrossTouran = new CarModel
+        {
+            Name="Cross Touran",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenPolo = new CarModel
+        {
+            Name="Polo",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenJetta = new CarModel
+        {
+            Name="Jetta",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel VolkswagenPassat = new CarModel
+        {
+            Name="Passat",
+            CarBrandID=Volkswagen.ID,
+            CarBrand=Volkswagen
+        };
+        
+
+        CarModel Volvo740 = new CarModel
+        {
+            Name="740",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoV40CrossCountry = new CarModel
+        {
+            Name="V40 Cross Country",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoXc90 = new CarModel
+        {
+            Name="XC90",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoXc60 = new CarModel
+        {
+            Name="XC60",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoS90 = new CarModel
+        {
+            Name="S90",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoXc40 = new CarModel
+        {
+            Name="XC40",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel Volvo850 = new CarModel
+        {
+            Name="850",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoV60 = new CarModel
+        {
+            Name="V60",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoS70 = new CarModel
+        {
+            Name="S70",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoC30 = new CarModel
+        {
+            Name="C30",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoS80 = new CarModel
+        {
+            Name="S80",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoV50 = new CarModel
+        {
+            Name="V50",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoV40 = new CarModel
+        {
+            Name="V40",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoS40 = new CarModel
+        {
+            Name="S40",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel Volvo122S = new CarModel
+        {
+            Name="122S",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        
+
+        CarModel VolvoS60 = new CarModel
+        {
+            Name="S60",
+            CarBrandID=Volvo.ID,
+            CarBrand=Volvo
+        };
+        

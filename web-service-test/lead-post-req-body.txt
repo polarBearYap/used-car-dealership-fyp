@@ -1,0 +1,10 @@
+{
+    "dont_email": "No",
+    "dont_call": "No",
+    "occupation": "Currently Not Employed",
+    "received_free_copy": "Yes",
+    "avg_page_view_per_visit": 9.0,
+    "total_site_visit": 9.0,
+    "total_time_spend_on_site": 208.0,
+    "converted": 0
+}

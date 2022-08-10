@@ -1,0 +1,120 @@
+﻿@model LeadViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    ViewData["Subject"] = "Lead";
+}
+
+<div class="container-fluid px-4" role="main">
+    <h1 class="mt-4">@ViewData["Subject"] @ViewData["Title"]</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item">
+            <a asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a asp-area="" asp-controller="Cars" asp-action="Index">@ViewData["Subject"]</a>
+        </li>
+        <li class="breadcrumb-item active">
+            @ViewData["Title"]
+        </li>
+    </ol>
+</div>
+
+<div class="row container-fluid table-container m-0 px-3 pb-3">
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DontEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.lead.DontEmail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DontCall)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.lead.DontCall)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Occupation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.lead.Occupation)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReceivedFreeCopy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.lead.ReceivedFreeCopy)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.lead.Status)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AvgPageViewPerVisit)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AvgPageViewPerVisit)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedTimestamp)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedTimestamp)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TotalSiteVisit)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TotalSiteVisit)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TotalTimeSpendOnSite)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TotalTimeSpendOnSite)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PredictedScore)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PredictedScore)
+        </dd>
+    </dl>
+
+    <div class="row">
+        <a asp-action="Edit" asp-route-id="@Model.lead.ID" asp-route-prevURL="@ViewData["PrevURL"]"
+           class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"
+           style="width: auto;">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            &nbsp;&nbsp;Edit
+        </a>
+        &nbsp;|&nbsp;
+        <a href="@ViewData["PrevURL"]" class="text-decoration-none"
+           data-bs-toggle="tooltip" data-bs-placement="top" title="Back to List"
+           style="width: auto;">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            &nbsp;&nbsp;Back to List
+        </a>
+    </div>
+</div>

@@ -1,0 +1,372 @@
+﻿@model PaginatedList<Car>
+
+@{
+    ViewData["Title"] = "Cars";
+
+    string[] displayColumnNames = {
+        Html.DisplayNameFor(model => model.SingleOrDefault().Title),
+        Html.DisplayNameFor(model => model.SingleOrDefault().CreatedTimestamp),
+        Html.DisplayNameFor(model => model.SingleOrDefault().CarModel.CarBrand.Name),
+        Html.DisplayNameFor(model => model.SingleOrDefault().CarModel.Name),
+        Html.DisplayNameFor(model => model.SingleOrDefault().AssignedPrice),
+        Html.DisplayNameFor(model => model.SingleOrDefault().PricePerMonth),
+        Html.DisplayNameFor(model => model.SingleOrDefault().PredictedPrice),
+        Html.DisplayNameFor(model => model.SingleOrDefault().UpdateAnalytics),
+        Html.DisplayNameFor(model => model.SingleOrDefault().Aspiration),
+        Html.DisplayNameFor(model => model.SingleOrDefault().Assembled),
+        Html.DisplayNameFor(model => model.SingleOrDefault().Colour),
+        Html.DisplayNameFor(model => model.SingleOrDefault().DirectInjection),
+        Html.DisplayNameFor(model => model.SingleOrDefault().Doors),
+        Html.DisplayNameFor(model => model.SingleOrDefault().EngineCC),
+        Html.DisplayNameFor(model => model.SingleOrDefault().FuelType),
+        Html.DisplayNameFor(model => model.SingleOrDefault().HeightMM),
+        Html.DisplayNameFor(model => model.SingleOrDefault().LengthMM),
+        Html.DisplayNameFor(model => model.SingleOrDefault().ManufactureYear),
+        Html.DisplayNameFor(model => model.SingleOrDefault().Mileage),
+        Html.DisplayNameFor(model => model.SingleOrDefault().PeakPowerHP),
+        Html.DisplayNameFor(model => model.SingleOrDefault().PeakTorqueNM),
+        Html.DisplayNameFor(model => model.SingleOrDefault().SeatCapacity),
+        Html.DisplayNameFor(model => model.SingleOrDefault().SteeringType),
+        Html.DisplayNameFor(model => model.SingleOrDefault().Transmission),
+        Html.DisplayNameFor(model => model.SingleOrDefault().WheelBaseMM),
+        Html.DisplayNameFor(model => model.SingleOrDefault().WidthMM)
+    };
+
+    string[] columnNamesAsc = {
+        "title",
+        "created_timestamp",
+        "brand",
+        "model",
+        "assigned_price",
+        "price_per_month",
+        "predicted_price",
+        "update_analytics",
+        "aspiration",
+        "assembled",
+        "colour",
+        "direct_injection",
+        "doors",
+        "engine_cc",
+        "fuel_type",
+        "height_mm",
+        "length_mm",
+        "manufacture_year",
+        "mileage",
+        "peak_power",
+        "peak_torque",
+        "seat_capacity",
+        "steering_type",
+        "transmission",
+        "wheel_base_mm",
+        "width_mm"
+    };
+
+    string[] columnNamesDesc = {
+        "created_timestamp_desc",
+        "brand_desc",
+        "model_desc",
+        "assigned_price_desc",
+        "price_per_month_desc",
+        "predicted_price_desc",
+        "update_analytics_desc",
+        "aspiration_desc",
+        "assembled_desc",
+        "colour_desc",
+        "direct_injection_desc",
+        "doors_desc",
+        "engine_cc_desc",
+        "fuel_type_desc",
+        "height_mm_desc",
+        "length_mm_desc",
+        "manufacture_year_desc",
+        "mileage_desc",
+        "peak_power_desc",
+        "peak_torque_desc",
+        "seat_capacity_desc",
+        "steering_type_desc",
+        "transmission_desc",
+        "wheel_base_mm_desc",
+        "width_mm_desc"
+    };
+
+    string[] SortParams = {
+        (string) ViewData["CreatedTimestampSortParam"],
+        (string) ViewData["BrandSortParam"],
+        (string) ViewData["ModelSortParam"],
+        (string) ViewData["AssignedPriceSortParam"],
+        (string) ViewData["PricePerMonthSortParam"],
+        (string) ViewData["PredictedPriceSortParam"],
+        (string) ViewData["UpdateAnalyticsSortParam"],
+        (string) ViewData["AspirationSortParam"],
+        (string) ViewData["AssembledSortParam"],
+        (string) ViewData["ColourSortParam"],
+        (string) ViewData["DirectInjectionSortParam"],
+        (string) ViewData["DoorsSortParam"],
+        (string) ViewData["EngineCCSortParam"],
+        (string) ViewData["FuelTypeSortParam"],
+        (string) ViewData["HeightMMSortParam"],
+        (string) ViewData["LengthMMSortParam"],
+        (string) ViewData["ManufactureYearSortParam"],
+        (string) ViewData["MileageSortParam"],
+        (string) ViewData["PeakPowerSortParam"],
+        (string) ViewData["PeakTorqueSortParam"],
+        (string) ViewData["SeatCapacitySortParam"],
+        (string) ViewData["SteeringTypeSortParam"],
+        (string) ViewData["TransmissionSortParam"],
+        (string) ViewData["WheelBaseMMSortParam"],
+        (string) ViewData["WidthMMSortParam"]
+    };
+
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="row container-fluid px-3 pt-3 mx-0">
+    <div class="col-8 d-flex justify-content-start align-items-center pl-0">
+        <h1>Car Details</h1>
+    </div>
+    <div class="col-4 d-flex justify-content-center align-items-center px-0 m-0">
+        <form asp-action="Index" method="get" role="form">
+            <div class="d-flex justify-content-end align-items-center form-group no-color">
+                <input type="hidden" name="SortOrder" value="@ViewData["CurrentSort"]" />
+                <input type="hidden" name="CurrentFilter" value="@ViewData["CurrentFilter"]" />
+                <input type="hidden" name="PageSize" value="@ViewData["CurrentPageSize"]" />
+                <label for="SearchString">Filter:</label>&nbsp;&nbsp;
+                <input class="form-control" type="text" id="SearchString" name="SearchString" value="@ViewData["CurrentFilter"]" />
+                &nbsp;&nbsp;&nbsp;
+                <button type="submit" class="btn btn-default px-0"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Search">
+                    <i class="fa fa-search md-blue" aria-hidden="true"></i>
+                </button>&nbsp;|&nbsp;
+                <a asp-action="Index"
+                   asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                   asp-route-sortOrder="@ViewData["CurrentSort"]"
+                   data-bs-toggle="tooltip" data-bs-placement="top" title="Back to Full List">
+                    <i class="fa fa-window-close" aria-hidden="true"></i>
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row d-flex justify-content-start align-items-center px-3 m-0">
+    <div class="col-4 d-flex justify-content-start align-items-center">
+        <a asp-action="Create" class="btn btn-success d-flex justify-content-center align-items-center">
+            <i class="fa fa-plus-circle md-white" aria-hidden="true"></i>&nbsp;&nbsp;<span>Add Car</span>
+        </a>
+    </div>
+    <div class="col-4 d-flex justify-content-center align-items-center">
+        <nav aria-label="Page Navigation">
+            <ul class="pagination">
+                <li class="page-item @prevDisabled">
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@ViewData["CurrentSort"]"
+                       asp-route-pageNumber="@(Model.PageIndex - 1)"
+                       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                       asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                       class="page-link">
+                        Previous
+                    </a>
+                </li>
+                <li class="page-item @nextDisabled">
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@ViewData["CurrentSort"]"
+                       asp-route-pageNumber="@(Model.PageIndex + 1)"
+                       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                       asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                       class="page-link">
+                        Next
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="col-4 d-flex justify-content-center align-items-center">
+        <form asp-action="Index" method="get" role="form">
+            <div class="d-flex justify-content-end align-items-center form-group no-color">
+                <input type="hidden" name="SortOrder" value="@ViewData["CurrentSort"]" />
+                <input type="hidden" name="CurrentFilter" value="@ViewData["CurrentFilter"]" />
+                <label for="PageSize">Page size:</label>
+                <input class="form-control" type="number" id="PageSize" name="PageSize" min="1" value="@ViewData["CurrentPageSize"]" />
+                <button type="submit" class="btn btn-default"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Refresh Page">
+                    <i class="fa fa-refresh md-blue" aria-hidden="true"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row container-fluid table-container m-0 px-3 pt-4 pb-3">
+    <div class="col-9 table-responsive table-wrapper" style="min-width: 500px;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="text-​no-wrap"></th>
+                    <th class="title text-​no-wrap">
+                        @if (string.IsNullOrEmpty((string)ViewData["CurrentSort"]))
+                        {
+                            <a class="text-decoration-none"
+                               asp-action="Index"
+                               asp-route-sortOrder="@ViewData["TitleSortParam"]"
+                               asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                               asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                               data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
+                               title="<span>Currently sort <b>@Html.DisplayNameFor(model => model.SingleOrDefault().Title)</b> by ASC order.</span><br><span>Click to sort by DESC order.</span>">
+                                @Html.DisplayNameFor(model => model.SingleOrDefault().Title)&nbsp;
+                                <i class="fa fa-sort-amount-asc md-blue" aria-hidden="true"></i>
+                            </a>
+                        }
+                        else if ((string)ViewData["CurrentSort"] == "title_desc")
+                        {
+                            <a class="text-decoration-none"
+                               asp-action="Index"
+                               asp-route-sortOrder="@ViewData["TitleSortParam"]"
+                               asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                               asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                               data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
+                               title="<span>Currently sort <b>@Html.DisplayNameFor(model => model.SingleOrDefault().Title)</b> by DESC order.</span><br><span>Click to sort by ASC order.</span>">
+                                @Html.DisplayNameFor(model => model.SingleOrDefault().Title)&nbsp;
+                                <i class="fa fa-sort-amount-desc md-blue" aria-hidden="true"></i>
+                            </a>
+                        }
+                        else
+                        {
+                            <a class="text-decoration-none"
+                               asp-action="Index"
+                               asp-route-sortOrder="@ViewData["TitleSortParam"]"
+                               asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                               asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                               data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
+                               title="<span>Click to sort @Html.DisplayNameFor(model => model.SingleOrDefault().Title) by ASC order.</span>">
+                                @Html.DisplayNameFor(model => model.SingleOrDefault().Title)&nbsp;
+                                <i class="fa fa-sort md-blue" aria-hidden="true"></i>
+                            </a>
+                        }
+                    </th>
+                    @for (int i = 0; i < displayColumnNames.Length - 1; i++)
+                    {
+                        <th class="@columnNamesAsc[i + 1] text-​no-wrap">
+                            @if ((string)ViewData["CurrentSort"] == columnNamesAsc[i + 1])
+                            {
+                                <a class="text-decoration-none"
+                                   asp-action="Index"
+                                   asp-route-sortOrder="@SortParams[i]"
+                                   asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                                   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                                   data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
+                                   title="<span>Currently sort <b>@displayColumnNames[i + 1]</b> by ASC order.</span><br><span>Click to sort by DESC order.</span>">
+                                    @displayColumnNames[i + 1]&nbsp;
+                                    <i class="fa fa-sort-amount-asc md-blue" aria-hidden="true"></i>
+                                </a>
+                            }
+                            else if ((string)ViewData["CurrentSort"] == columnNamesDesc[i])
+                            {
+                                <a class="text-decoration-none"
+                                   asp-action="Index"
+                                   asp-route-sortOrder="@SortParams[i]"
+                                   asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                                   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                                   data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
+                                   title="<span>Currently sort <b>@displayColumnNames[i + 1]</b> by DESC order.</span><br><span>Click to sort by ASC order.</span>">
+                                    @displayColumnNames[i + 1]&nbsp;
+                                    <i class="fa fa-sort-amount-desc md-blue" aria-hidden="true"></i>
+                                </a>
+                            }
+                            else
+                            {
+                                <a class="text-decoration-none"
+                                   asp-action="Index"
+                                   asp-route-sortOrder="@SortParams[i]"
+                                   asp-route-pageSize="@ViewData["CurrentPageSize"]"
+                                   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                                   data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"
+                                   title="<span>Click to sort @displayColumnNames[i + 1] by ASC order.</span>">
+                                    @displayColumnNames[i + 1]&nbsp;
+                                    <i class="fa fa-sort md-blue" aria-hidden="true"></i>
+                                </a>
+                            }
+                        </th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-​no-wrap">
+                            <a class="text-decoration-none" asp-action="Details" asp-route-id="@item.ID"
+                               data-bs-toggle="tooltip" data-bs-placement="top" title="View Details">
+                                <i class="fa fa-info-circle md-blue" aria-hidden="true"></i>
+                            </a>&nbsp;|&nbsp;
+                            <a class="text-decoration-none" asp-action="Edit" asp-route-id="@item.ID"
+                               data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Record">
+                                <i class="fa fa-pencil md-blue" aria-hidden="true"></i>
+                            </a>&nbsp;|&nbsp;
+                            <a class="text-decoration-none" asp-action="Delete" asp-route-id="@item.ID"
+                               data-bs-toggle="tooltip" data-bs-placement="top" title="Delete Record">
+                                <i class="fa fa-trash md-red" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        @{
+                            IHtmlContent[] columnValues = {
+                                Html.DisplayFor(modelItem => item.Title),
+                                Html.DisplayFor(modelItem => item.CreatedTimestamp),
+                                Html.DisplayFor(modelItem => item.CarModel.CarBrand.Name),
+                                Html.DisplayFor(modelItem => item.CarModel.Name),
+                                Html.DisplayFor(modelItem => item.AssignedPrice),
+                                Html.DisplayFor(modelItem => item.PricePerMonth),
+                                Html.DisplayFor(modelItem => item.PredictedPrice),
+                                Html.DisplayFor(modelItem => item.UpdateAnalytics),
+                                Html.DisplayFor(modelItem => item.Aspiration),
+                                Html.DisplayFor(modelItem => item.Assembled),
+                                Html.DisplayFor(modelItem => item.Colour),
+                                Html.DisplayFor(modelItem => item.DirectInjection),
+                                Html.DisplayFor(modelItem => item.Doors),
+                                Html.DisplayFor(modelItem => item.EngineCC),
+                                Html.DisplayFor(modelItem => item.FuelType),
+                                Html.DisplayFor(modelItem => item.HeightMM),
+                                Html.DisplayFor(modelItem => item.LengthMM),
+                                Html.DisplayFor(modelItem => item.ManufactureYear),
+                                Html.DisplayFor(modelItem => item.Mileage),
+                                Html.DisplayFor(modelItem => item.PeakPowerHP),
+                                Html.DisplayFor(modelItem => item.PeakTorqueNM),
+                                Html.DisplayFor(modelItem => item.SeatCapacity),
+                                Html.DisplayFor(modelItem => item.SteeringType),
+                                Html.DisplayFor(modelItem => item.Transmission),
+                                Html.DisplayFor(modelItem => item.WheelBaseMM),
+                                Html.DisplayFor(modelItem => item.WidthMM)
+                            };
+                        }
+                        @for (int i = 0; i < columnValues.Length; i++)
+                        {
+                            <td class="@columnNamesAsc[i]">
+                                @columnValues[i]
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Filter car checkboxes -->
+    <!-- ============================================================== -->
+    <div class="col-3">
+        <div class="row d-flex flex-column">
+            <div class="col d-flex mt-3 px-3 flex-column justify-content-start align-items-center">
+                <h3>Filter by columns</h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="selectAll" id="selectAll">
+                    <label for="selectAll">Select All</label><br>
+                    @for (int i = 0; i < displayColumnNames.Length; i++)
+                    {
+                        <input class="form-check-input" type="checkbox" name="filtercolumn" value="@columnNamesAsc[i]" id="@columnNamesAsc[i]">
+                        <label for="@columnNamesAsc[i]">@displayColumnNames[i]</label><br>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End filter car checkboxes -->
+    <!-- ============================================================== -->
+</div>

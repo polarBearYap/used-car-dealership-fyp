@@ -1,0 +1,19 @@
+version: '3'
+services:
+  shap-web-service:
+    image: usedcarwebserviceregistry.azurecr.io/shap-web-service:python3.9-latest
+    build:
+      context: ./shap-web-service
+    ports:
+    - "5000:80"
+    restart: on-failure
+    environment:
+      - SQLAZURECONNSTR_WWIF=Server=tcp:used-car-dealership-fyp2-1800224.database.windows.net,1433;Database=UsedCarDealershipDatabase;Uid=jhengkhinyap;Pwd=<your-password>
+    depends_on:
+      - river-web-service
+  river-web-service:
+    image: usedcarwebserviceregistry.azurecr.io/river-web-service:python3.9-latest
+    ports:
+    - "5001:80"
+    build:
+      context: ./river-web-service

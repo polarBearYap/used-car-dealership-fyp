@@ -1,0 +1,11 @@
+certifi==2021.10.8
+importlib-metadata==4.11.3
+jupyter==1.0.0
+matplotlib==3.5.1
+pipdeptree==2.2.1
+plotly==5.7.0
+shap==0.40.0
+sip==4.19.13
+typing-extensions==4.1.1
+wheel==0.37.1
+wincertstore==0.2

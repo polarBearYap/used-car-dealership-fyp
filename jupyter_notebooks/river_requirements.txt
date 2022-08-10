@@ -1,0 +1,17 @@
+certifi==2021.10.8
+Cython==0.29.28
+graphviz==0.19.1
+importlib-metadata==4.11.3
+jupyter==1.0.0
+jupyter-contrib-nbextensions==0.5.1
+jupyterlab-pygments==0.1.2
+llvmlite==0.38.0
+nbclient==0.5.11
+pipdeptree==2.2.1
+river==0.10.1
+scikit-multiflow==0.5.3
+sip==4.19.13
+tqdm==4.64.0
+typing-extensions==4.1.1
+wheel==0.37.1
+wincertstore==0.2

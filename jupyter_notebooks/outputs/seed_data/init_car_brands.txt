@@ -1,0 +1,44 @@
+CarBrand BMW = new CarBrand { Name="BMW" };
+
+CarBrand Ford = new CarBrand { Name="Ford" };
+
+CarBrand Honda = new CarBrand { Name="Honda" };
+
+CarBrand Hyundai = new CarBrand { Name="Hyundai" };
+
+CarBrand Jaguar = new CarBrand { Name="Jaguar" };
+
+CarBrand Kia = new CarBrand { Name="Kia" };
+
+CarBrand LandRover = new CarBrand { Name="Land Rover" };
+
+CarBrand Lexus = new CarBrand { Name="Lexus" };
+
+CarBrand Mini = new CarBrand { Name="MINI" };
+
+CarBrand Mazda = new CarBrand { Name="Mazda" };
+
+CarBrand MercedesBenz = new CarBrand { Name="Mercedes-Benz" };
+
+CarBrand Mitsubishi = new CarBrand { Name="Mitsubishi" };
+
+CarBrand Nissan = new CarBrand { Name="Nissan" };
+
+CarBrand Perodua = new CarBrand { Name="Perodua" };
+
+CarBrand Peugeot = new CarBrand { Name="Peugeot" };
+
+CarBrand Porsche = new CarBrand { Name="Porsche" };
+
+CarBrand Proton = new CarBrand { Name="Proton" };
+
+CarBrand Renault = new CarBrand { Name="Renault" };
+
+CarBrand Subaru = new CarBrand { Name="Subaru" };
+
+CarBrand Toyota = new CarBrand { Name="Toyota" };
+
+CarBrand Volkswagen = new CarBrand { Name="Volkswagen" };
+
+CarBrand Volvo = new CarBrand { Name="Volvo" };
+

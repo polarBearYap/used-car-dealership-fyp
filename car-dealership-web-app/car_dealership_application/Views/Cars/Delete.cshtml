@@ -1,0 +1,212 @@
+﻿@model CarViewModel
+
+@{
+    ViewData["Title"] = "Delete";
+    ViewData["Subject"] = "Car";
+}
+
+<div class="container-fluid px-4" role="main">
+    <h1 class="mt-4">@ViewData["Title"] @ViewData["Subject"]</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item">
+            <a asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a asp-area="" asp-controller="Cars" asp-action="Index">@ViewData["Subject"]</a>
+        </li>
+        <li class="breadcrumb-item active">
+            @ViewData["Title"]
+        </li>
+    </ol>
+</div>
+
+<div class="row container-fluid table-container m-0 px-3 pb-3">
+    <h3>Are you sure you want to delete this?</h3>
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.car.ID)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.ID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedTimestamp)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedTimestamp)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.car.CarModel.CarBrand.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.CarModel.CarBrand.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.car.CarModel.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.CarModel.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PricePerMonth)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PricePerMonth)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PredictedPrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PredictedPrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UpdateAnalytics)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UpdateAnalytics)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Aspiration)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.Aspiration)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Assembled)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.Assembled)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Colour)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Colour)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DirectInjection)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.DirectInjection)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Doors)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Doors)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EngineCC)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EngineCC)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FuelType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.FuelType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HeightMM)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HeightMM)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LengthMM)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LengthMM)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ManufactureYear)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ManufactureYear)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Mileage)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Mileage)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PeakPowerHP)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PeakPowerHP)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PeakTorqueNM)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PeakTorqueNM)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SeatCapacity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SeatCapacity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SteeringType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.SteeringType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Transmission)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.car.Transmission)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WheelBaseMM)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WheelBaseMM)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WidthMM)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WidthMM)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" id="id" name="id" value="@Model.car.ID" />
+        <input type="hidden" name="prevURL" value="@ViewData["PrevURL"]">
+        <button type="submit" value="Delete" class="btn btn-danger"
+                data-bs-toggle="tooltip" data-bs-placement="top" title="Confirm Delete">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+            &nbsp;&nbsp;Confirm Delete
+        </button>
+        &nbsp;|&nbsp;
+        <a asp-action="Edit" asp-route-id="@Model.car.ID" asp-route-prevURL="@ViewData["PrevURL"]"
+           class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            &nbsp;&nbsp;Edit
+        </a>
+        &nbsp;|&nbsp;
+        <a href="@ViewData["PrevURL"]" class="text-decoration-none"
+           data-bs-toggle="tooltip" data-bs-placement="top" title="Back to List">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            &nbsp;&nbsp;Back to List
+        </a>
+    </form>
+</div>

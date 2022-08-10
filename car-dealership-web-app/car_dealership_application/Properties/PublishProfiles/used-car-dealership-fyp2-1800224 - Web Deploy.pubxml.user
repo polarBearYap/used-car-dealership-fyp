@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnw+lTWDXIUeYgDaUV36SHgAAAAACAAAAAAAQZgAAAAEAACAAAADwreojXt+47OaU9yiatBoePtm88WlCE/JQfkhUyT2K8QAAAAAOgAAAAAIAACAAAACUslxM+2vFUEBcEouNVeunT+q0CDNIIzh4WxBIqomAbIAAAADc+y3hlPw66vrcDfpUXQYhFx+9robPILtu/KTgHvy1FLX7n2hLhBSS7FU6l2HwrBjV4WTfkPoPQZveqTyuQbDWIcEcL+YfFe2RPuYwCVtgoDjvC5HJmn7jMRBCT4pdv76WVCQ3Qo1es9HtsRT/+mB5kOnc/SslCMw6XvT1EoGN/kAAAACGENpH3XpfTf/iisAVH4q9pk8EKmoIvnOHgE7K7PJlAyDWTEry6X7kynYq7lx07Ttxkwyq9HFnf1FleKR19YU6</EncryptedPassword>
+    <History>True|2022-04-21T07:42:48.9937283Z;True|2022-04-21T15:27:49.1014332+08:00;True|2022-04-19T21:18:10.9590758+08:00;True|2022-04-15T03:43:23.9075237+08:00;True|2022-04-03T16:06:54.2110744+08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CarDealershipContext">
+      <Value>Data Source=tcp:used-car-dealership-fyp2-1800224.database.windows.net,1433%3bInitial Catalog=UsedCarDealershipDatabase%3bUser Id=jhengkhinyap%40used-car-dealership-fyp2-1800224%3bPassword=L%29yjk%3f_sin81</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CarDealershipWebApp.Data.CarDealershipContext">
+      <Value>Data Source=tcp:used-car-dealership-fyp2-1800224.database.windows.net,1433%3bInitial Catalog=UsedCarDealershipDatabase%3bUser Id=jhengkhinyap%40used-car-dealership-fyp2-1800224%3bPassword=L%29yjk%3f_sin81</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
