@@ -1,5 +1,7 @@
 # FYP Project: Used Car Dealership Web Application
 
+<p align="justify">The project is an enhancement of existing used car dealership web application using online machine learning and interpertable machine learning. Below summarizes the important aspects of the web application. Please refer to the <a href="./reports/18ACB00224_FYP2.pdf">FYP 2 report</a> for the full details.</p>
+
 ## Table of contents
 - [Overview](#overview)
 - [Features](#features)
@@ -14,7 +16,7 @@
 
 1. To implement lead management that was enhanced with predictive analytics for spending less time and resources on converting leads.
 2. To implement inventory management that was enhanced with predictive analytics for setting prices that were attractive and maximize profits.
-3. To implement an online AI learning and monitoring system for automatically detecting and adapting to concept drift.
+3. To implement an online AI learning and monitoring system for automatically detecting and adapting to drift.
 4. To implement explainable AI in predictive analytics for enhancing the business value of AI and promoting used car dealers’ trust in AI.
 
 > [1] A. Brennen, "What Do People Really Want When They Say They Want
@@ -26,23 +28,23 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 
 ### Interpretable machine learning
 
-<p align="justify">The method used to interpret the adaptive random forest is <a href="https://github.com/slundberg/shap">Tree SHAP (SHapley Additive exPlanations)</a>. <a href="https://plotly.com/python/">Plotly</a> is chosen for the visualizations since the plot can be configured in Python and contains functionalities such as image downloading, zooming, and data hovering with little or no configuration.</p>
+<p align="justify">The method used to interpret the adaptive random forest is <a href="https://github.com/slundberg/shap">Tree SHAP (SHapley Additive exPlanations)</a>. <a href="https://plotly.com/python/">Plotly</a> is chosen for the visualizations since the plot can be configured in Python before converting to HTML and contains built-in functionalities such as image downloading, zooming, and data hovering with little or no configuration.</p>
 
-1. Construct SHAP bar plots to review individual predicted car price/lead score.
+1. SHAP bar plots are constructed to review individual predicted car price/lead score.
 
-2. Construct beeswarm plots and feature importance bar plots to review car price model and lead scoring model.
+2. Beeswarm plots and feature importance bar plots are constructed to review car price model and lead scoring model.
 
-3. Construct the SHAP bar plot and SHAP loss bar plot to review individual model loss.
+3. SHAP bar plots and SHAP loss bar plots are constructed to review individual model loss.
 
-4. Construct SHAP loss monitoring plot monitor drift on records **with truth**.
+4. SHAP loss monitoring plots are constructed to monitor drift on records **with truth**.
 
-5. Construct PSI graph, PSI table and chisquared table to  monitor drift on records **without truth**.
+5. PSI graphs, PSI tables and chisquared tables are constructed to monitor drift on records **without truth**.
 
 ### Online machine learning
-<p align="justify">The machine learning algorithms used are adaptive random forest (ARF) <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestClassifier/">classification algorithm</a> and <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestRegressor/">regression algorithm</a>. These algorithms can automatically start training new base learners (Hoeffding tree) in the background and eventually replace the corresponding old base learners if drift is detected. Instead of training ARF model from scratch, transfer learning is used to transfer training weights of a random forest model to an ARF model to give the initial performance boost. Then, verifications are conducted to ensure that:</p>
+<p align="justify">The machine learning algorithms used are adaptive random forest (ARF) <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestClassifier/">classification algorithm</a> and <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestRegressor/">regression algorithm</a>. These algorithms can automatically start training new base learners (Hoeffding tree) in the background and eventually replace the corresponding old base learners if drift is detected. Instead of training ARF model from scratch, transfer learning is used to transfer training weights of a random forest model to an ARF model to give an initial performance boost. Then, verifications are conducted to ensure that:</p>
 
-1. The pre-trained ARF model's performance is at least good or better than the corresponding ARF model that was trained from scratch in both offline settings and online settings.
-2. The performance of the pre-trained ARF model is at least good or better than random forest model during initial training.
+1. The pre-trained ARF model's performance is at least good or better than the corresponding ARF model that is trained from scratch in both offline settings and online settings.
+2. The performance of the pre-trained ARF model is at least good or better than random forest model in offline settings.
 3. The performance of the ARF model was better than random forest model under the influence of drift.
 
 <p align="justify">Furthermore, since the Tree SHAP algorithm from the SHAP library does not directly support the ARF model from the River library, the weights must be manually extracted into a dictionary.</p>
