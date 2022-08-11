@@ -7,7 +7,7 @@ Checklist
 4. Not Done
 5. Done
 6. Not Done
-7. Not Done
+7. Done
 
 ## Table of contents
 - [Problem statement](#overview)
