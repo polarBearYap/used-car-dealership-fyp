@@ -10,12 +10,17 @@
 - [Upcoming improvement](#upcoming-improvement)
 
 ## Overview
-<p align="justify">According to a research conducted by Brennen, most industry people or the end-user did not understand how AI works and did not trust them [3]. This discouraged the adoption of sophisticated AI applications like self-driving vehicles and financial robo-advisors in business. In the interviews conducted by Brennen, explainable AI could help the non-tech people to see values in AI and feel comfortable with AI without understanding how AI works [3]. Hence, I am motivated to implement explainable AI functionalities to promote application users' trust. In addition, I also need to implement mechanisms to monitor and detect drift to guarantee the relevancy of the machine learing models. Hence, the project objectives were:</p>
+<p align="justify">According to a research conducted by Brennen, most industry people or the end-user did not understand how AI works and did not trust them [1]. This discouraged the adoption of sophisticated AI applications like self-driving vehicles and financial robo-advisors in business. In the interviews conducted by Brennen, explainable AI could help the non-tech people to see values in AI and feel comfortable with AI without understanding how AI works [1]. Hence, I am motivated to implement explainable AI functionalities to promote application users' trust. In addition, I also need to implement mechanisms to monitor and detect drift to guarantee the relevancy of the machine learing models. Hence, the project objectives were:</p>
 
 1. To implement lead management that was enhanced with predictive analytics for spending less time and resources on converting leads.
 2. To implement inventory management that was enhanced with predictive analytics for setting prices that were attractive and maximize profits.
 3. To implement an online AI learning and monitoring system for automatically detecting and adapting to concept drift.
 4. To implement explainable AI in predictive analytics for enhancing the business value of AI and promoting used car dealers’ trust in AI.
+
+> [1] A. Brennen, "What Do People Really Want When They Say They Want
+'Explainable AI?' We Asked 60 Stakeholders.," in Extended Abstracts of the 2020
+CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
+2020, pp. 1–7. doi: 10.1145/3334480.3383047.
 
 ## Features
 
