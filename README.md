@@ -1,25 +1,16 @@
 # FYP Project: Used Car Dealership Web Application
 
-Checklist
-1. Done
-2. Not Done
-3. Done
-4. Done
-5. Done
-6. Done
-7. Done
-
 ## Table of contents
 - [Overview](#overview)
 - [Features](#features)
 - [Project demo](#project-demo)
 - [File structure](#file-structure)
 - [Acknowledgement](#acknowledgement)
-- [Plagiarism](#plagiarism)
+- [Plagiarism check](#plagiarism-check)
 - [Upcoming improvement](#upcoming-improvement)
 
 ## Overview
-<p align="justify">According to a research conducted by Brennen, most industry people or the end-user did not understand how AI works and did not trust them [3]. This discouraged the adoption of sophisticated AI applications like self-driving vehicles and financial robo-advisors in business. In the interviews conducted by Brennen, explainable AI could help the non-tech people to see values in AI and feel comfortable with AI without understanding how AI works [3]. Hence, I was motivated to implement explainable AI functionalities to promote application users' trust. In addition, I also needed to implement mechanisms to monitor and detect drift to guarantee the relevancy of the machine learing models. Hence, the project objectives were:</p>
+<p align="justify">According to a research conducted by Brennen, most industry people or the end-user did not understand how AI works and did not trust them [3]. This discouraged the adoption of sophisticated AI applications like self-driving vehicles and financial robo-advisors in business. In the interviews conducted by Brennen, explainable AI could help the non-tech people to see values in AI and feel comfortable with AI without understanding how AI works [3]. Hence, I am motivated to implement explainable AI functionalities to promote application users' trust. In addition, I also need to implement mechanisms to monitor and detect drift to guarantee the relevancy of the machine learing models. Hence, the project objectives were:</p>
 
 1. To implement lead management that was enhanced with predictive analytics for spending less time and resources on converting leads.
 2. To implement inventory management that was enhanced with predictive analytics for setting prices that were attractive and maximize profits.
@@ -30,7 +21,7 @@ Checklist
 
 ### Interpretable machine learning
 
-<p align="justify">The method used to interpret the adaptive random forest is <a href="https://github.com/slundberg/shap">Tree SHAP (SHapley Additive exPlanations)</a>. <a href="https://plotly.com/python/">Plotly</a> is chosen for the visualizations since the plot can be configured in Python and enhanced with functionalities such as image downloading, zooming, and data hovering with little or no configuration.</p>
+<p align="justify">The method used to interpret the adaptive random forest is <a href="https://github.com/slundberg/shap">Tree SHAP (SHapley Additive exPlanations)</a>. <a href="https://plotly.com/python/">Plotly</a> is chosen for the visualizations since the plot can be configured in Python and contains functionalities such as image downloading, zooming, and data hovering with little or no configuration.</p>
 
 1. Construct SHAP bar plots to review individual predicted car price/lead score.
 
@@ -42,9 +33,14 @@ Checklist
 
 5. Construct PSI graph, PSI table and chisquared table to  monitor drift on records **without truth**.
 
-Experimental results
+### Online machine learning
+<p align="justify">The machine learning algorithms used are adaptive random forest (ARF) <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestClassifier/">classification algorithm</a> and <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestRegressor/">regression algorithm</a>. These algorithms can automatically start training new base learners (Hoeffding tree) in the background and eventually replace the corresponding old base learners if drift is detected. Instead of training ARF model from scratch, transfer learning is used to transfer training weights of a random forest model to an ARF model to give the initial performance boost. Then, verifications are conducted to ensure that:</p>
 
+1. The pre-trained ARF model's performance is at least good or better than the corresponding ARF model that was trained from scratch in both offline settings and online settings.
+2. The performance of the pre-trained ARF model is at least good or better than random forest model during initial training.
+3. The performance of the ARF model was better than random forest model under the influence of drift.
 
+<p align="justify">Furthermore, since the Tree SHAP algorithm from the SHAP library does not directly support the ARF model from the River library, the weights must be manually extracted into a dictionary.</p>
 
 ## Project demo
 1. The FYP1 presentation video can be found at https://www.youtube.com/watch?v=coXsj8UFycY. FYP1 mainly focuses on theories and proposal.
