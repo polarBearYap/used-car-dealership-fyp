@@ -32,34 +32,44 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 
 1. Beeswarm plots and feature importance bar plots are constructed to review car price model and lead scoring model.
 
+> Beeswarm plot
 <img alt="Beeswarm plot" src="./pictures/beeswarm-plot.png" width="600">
 
+> Feature importance bar plot
 <img alt="Feature importance bar plot" src="./pictures/feature-importance-bar-plot.png" width="600">
 
 2. Positive and negative model loss bar plots are constructed to evaluate model's performance.
 
+> Positive model loss bar plot
 <img alt="Positive model loss bar plot" src="./pictures/positive-model-loss-bar-plot.png" width="600">
 
+> Negative model loss bar plot
 <img alt="Negative model loss bar plot" src="./pictures/negative-model-loss-bar-plot.png" width="600">
 
 3. SHAP bar plots are constructed to review individual predicted car price/lead score.
 
+> SHAP bar plot
 <img alt="SHAP bar plot" src="./pictures/shap-bar-plot.png" width="500">
 
 4. SHAP bar plots and SHAP loss bar plots are constructed to review individual model loss.
 
+> SHAP bar plot and SHAP loss bar plot
 <img alt="SHAP bar plot and SHAP loss bar plot" src="./pictures/shap-bar-plot-and-shap-loss-bar-plot.png" width="500">
 
 5. SHAP loss monitoring plots are constructed to monitor drift on records **with truth**.
 
+> SHAP loss monitoring plot
 <img alt="SHAP loss monitoring plot" src="./pictures/shap-loss-monitoring-plot.png" width="600">
 
 6. PSI graphs, PSI tables and chisquared tables are constructed to monitor drift on records **without truth**. 
 
+> PSI graph
 <img alt="PSI graph" src="./pictures/psi-graph.png" width="600">
 
+> PSI table
 <img alt="PSI table" src="./pictures/psi-table.png" width="600">
 
+> Chi-squared table
 <img alt="Chi-squared table" src="./pictures/chi2-table.png" width="400">
 
 > PSI stands for Population Stability Index, while Chisquared stands for chi-squared goodness of fit tests.
@@ -67,15 +77,15 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 ### Online machine learning
 <p align="justify">The machine learning algorithms used are adaptive random forest (ARF) <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestClassifier/">classification algorithm</a> and <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestRegressor/">regression algorithm</a>. These algorithms can automatically start training new base learners (Hoeffding tree) in the background and eventually replace the corresponding old base learners if drift is detected. Instead of training ARF model from scratch, transfer learning is used to transfer training weights of a random forest model to an ARF model to give an initial performance boost. Then, verifications are conducted to ensure that:</p>
 
-<img alt="Verification of ARF classifier" src="./pictures/arf-classifier-verification.png" width="700">
-
-<img alt="Verification of ARF regressor" src="./pictures/arf-regressor-verification.png" width="700">
-
 1. The pre-trained ARF model's performance is at least good or better than the corresponding ARF model that is trained from scratch in both offline settings and online settings.
 2. The performance of the pre-trained ARF model is at least good or better than random forest model in offline settings.
 3. The performance of the ARF model was better than random forest model under the influence of drift.
 
 > Models are trained with normal data in offline settings and trained with drifted data in onine settings.
+
+<img alt="Verification of ARF classifier" src="./pictures/arf-classifier-verification.png" width="700">
+
+<img alt="Verification of ARF regressor" src="./pictures/arf-regressor-verification.png" width="700">
 
 <p align="justify">Furthermore, since the Tree SHAP algorithm from the SHAP library does not directly support the ARF model from the River library, the weights must be manually extracted into a dictionary.</p>
 
