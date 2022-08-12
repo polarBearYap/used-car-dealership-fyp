@@ -54,7 +54,15 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 
 <img alt="SHAP loss monitoring plot" src="./pictures/shap-loss-monitoring-plot.png" width="600">
 
-6. PSI graphs, PSI tables and chisquared tables are constructed to monitor drift on records **without truth**.
+6. PSI graphs, PSI tables and chisquared tables are constructed to monitor drift on records **without truth**. 
+
+<img alt="PSI graph" src="./pictures/psi-graph.png" width="600">
+
+<img alt="PSI table" src="./pictures/psi-table.png" width="600">
+
+<img alt="Chi-squared table" src="./pictures/chi2-table.png" width="400">
+
+> PSI stands for Population Stability Index, while Chisquared stands for chi-squared goodness of fit tests.
 
 ### Online machine learning
 <p align="justify">The machine learning algorithms used are adaptive random forest (ARF) <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestClassifier/">classification algorithm</a> and <a href="https://riverml.xyz/0.11.1/api/ensemble/AdaptiveRandomForestRegressor/">regression algorithm</a>. These algorithms can automatically start training new base learners (Hoeffding tree) in the background and eventually replace the corresponding old base learners if drift is detected. Instead of training ARF model from scratch, transfer learning is used to transfer training weights of a random forest model to an ARF model to give an initial performance boost. Then, verifications are conducted to ensure that:</p>
