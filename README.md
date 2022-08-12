@@ -83,8 +83,10 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 
 > Models are trained with normal data in offline settings and trained with drifted data in onine settings.
 
+> Verification of ARF classifier
 <img alt="Verification of ARF classifier" src="./pictures/arf-classifier-verification.png" width="700">
 
+> Verification of ARF regressor
 <img alt="Verification of ARF regressor" src="./pictures/arf-regressor-verification.png" width="700">
 
 <p align="justify">Furthermore, since the Tree SHAP algorithm from the SHAP library does not directly support the ARF model from the River library, the weights must be manually extracted into a dictionary.</p>
