@@ -38,7 +38,7 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 > Feature importance bar plot
 <img alt="Feature importance bar plot" src="./pictures/feature-importance-bar-plot.png" width="600">
 
-2. Positive and negative model loss bar plots are constructed to evaluate model's performance.
+2. Positive and negative model loss bar plots are constructed to evaluate models' performance.
 
 > Positive model loss bar plot
 <img alt="Positive model loss bar plot" src="./pictures/positive-model-loss-bar-plot.png" width="600">
@@ -61,7 +61,7 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 > SHAP loss monitoring plot
 <img alt="SHAP loss monitoring plot" src="./pictures/shap-loss-monitoring-plot.png" width="600">
 
-6. PSI graphs, PSI tables and chisquared tables are constructed to monitor drift on records **without truth**. 
+6. PSI graphs, PSI tables and chi-squared tables are constructed to monitor drift on records **without truth**. 
 
 > PSI graph
 <img alt="PSI graph" src="./pictures/psi-graph.png" width="600">
@@ -81,15 +81,15 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 2. The performance of the pre-trained ARF model is at least good or better than random forest model in offline settings.
 3. The performance of the ARF model was better than random forest model under the influence of drift.
 
-> Models are trained with normal data in offline settings and trained with drifted data in onine settings.
+> Models are trained with normal data in offline settings and trained with drifted data in online settings.
 
-> Verification of ARF classifier
+> Verification of the ARF classifier
 <img alt="Verification of ARF classifier" src="./pictures/arf-classifier-verification.png" width="700">
 
-> Verification of ARF regressor
+> Verification of the ARF regressor
 <img alt="Verification of ARF regressor" src="./pictures/arf-regressor-verification.png" width="700">
 
-<p align="justify">Furthermore, since the Tree SHAP algorithm from the SHAP library does not directly support the ARF model from the River library, the weights must be manually extracted into a dictionary.</p>
+<p align="justify">Furthermore, since the Tree SHAP API from the SHAP library does not directly support the ARF model from the River library, the weights must be manually extracted into a dictionary.</p>
 
 ## Project demo
 1. The FYP1 presentation video can be found at https://www.youtube.com/watch?v=coXsj8UFycY. FYP1 mainly focuses on theories and proposal.
@@ -116,8 +116,8 @@ I would like to thanks Ts Sun Teik Heng @ San Teik Heng for patiently guiding th
 ## Upcoming improvement
 <p align="justify">Although this FYP project has been completed, I have realized that there are many design flaws in my system. I only knew when I have finished reading the book <a href="https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1492034029">"Building Microservices"</a>, studied for the <a href="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate">KCNA exam</a>, and research the latest AI practices from the book <a href="https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969/">"Designing Machine Learning Systems"</a>. Due to time constraint, I am not managed to finish implementing this improved FYP project while currently studying other subjects. However, I will start implementing after the final examination is over. I will update the progress here when it is done.</p>
 
-1. <p align="justify"><b>API design</b>: In microservice architecture, the SHAP web service and River web service should not be tightly coupled with one another. If not, the system cannot benefit from indepdent deployability, ease of change, and technology heterogeneity. Besides, the API interface must be redesigned to reduce the occurrence of breaking changes that affect API consumer. The API is described using OpenAPI specification (OAS) to automatically generate documentation using Swagger. The OAS file will be used by (1) <a href="https://stoplight.io/open-source/prism">Stoplight Prism</a> to create mock API server and used by (2) <a href="https://schemathesis.readthedocs.io/en/stable/">schemathesis</a> to automatically generate test cases. The purpose of these two tools is to thoroughly test the API before asking for QA approval using the <a href="https://www.jenkins.io/doc/book/pipeline/#overview">Jenkins pipeline</a>.</p>
+1. <p align="justify"><b>API design</b>: In microservice architecture, the SHAP web service and River web service should not be tightly coupled with one another. If not, the system cannot benefit from indepdent deployability, ease of change, and technology heterogeneity. Besides, the API interface must be redesigned to reduce the occurrence of breaking changes that affect API consumers. The API is described using OpenAPI specification (OAS) to automatically generate documentation using Swagger. The OAS file will be used by (1) <a href="https://stoplight.io/open-source/prism">Stoplight Prism</a> to create mock API server and used by (2) <a href="https://schemathesis.readthedocs.io/en/stable/">schemathesis</a> to automatically generate test cases. The purpose of these two tools is to thoroughly test the API before asking for QA approval using the <a href="https://www.jenkins.io/doc/book/pipeline/#overview">Jenkins pipeline</a>.</p>
 2. <p align="justify"><b>Model serving library</b>: Replace the Flask-RESTful framework (traditional web server) with <a href="https://www.ray.io/ray-serve">Ray Serve</a>. Ray Serve framework can support complex model inference service using custom business logic and multiple ML models, and indenpendent scaling of each model.</p>
-3. <p align="justify"><b>Kubernetes</b>: Instead of using Docker compose, Kubernetes is used instead to deploy the containers. It is because Kubernetes controllers and operators (custom controllers) can support various production use cases like service discovery, load balancing, failover, rollouts, rollbacks, observability, continuous delivery, and more without relying on manual set up nor vendor-specific cloud services. Besides, service mesh like <a href="https://linkerd.io/">Linkerd</a>, distributed streaming system like <a href="https://kafka.apache.org/">Apache Kafka</a>, and GitOps continuous delivery tool like <a href="https://argo-cd.readthedocs.io/en/stable/">Argo CD</a> can also be easily deployed along with the containers using a simple "helm install" command. Finally, these are all packaged with the web services using Helm charts to facilitate easy versioning and installation on any Kubernetes cluster.</p>
+3. <p align="justify"><b>Kubernetes</b>: Instead of using Docker compose, Kubernetes is used instead to deploy the containers. It is because Kubernetes controllers and operators (custom controllers) can support various production use cases like service discovery, load balancing, failover, rollouts, rollbacks, observability, continuous delivery, and more without relying on manual set up nor vendor-specific cloud services. Besides, service mesh like <a href="https://linkerd.io/">Linkerd</a>, distributed streaming system like <a href="https://kafka.apache.org/">Apache Kafka</a>, and GitOps continuous delivery tool like <a href="https://argo-cd.readthedocs.io/en/stable/">Argo CD</a> can also be easily deployed along with the containers using a simple "helm install" command. Finally, these are all packaged with the web application and web services using Helm charts to facilitate easy versioning and installation on any Kubernetes cluster.</p>
 4. <p align="justify"><b>API & microservice security</b>: I am also going to implement API security, currently I haven't finish reading the <a href="https://www.amazon.com/Microservices-Security-Action-Prabath-Siriwardena/dp/1617295957">"Microservices Security in Action"</a>. Hence, I haven't have the full knowlege on how to implement the security mechanism. I will update after final examination is over.</p>
 
