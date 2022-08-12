@@ -101,6 +101,8 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 | car-dealership-web-app | Contain the artifacts of ASP.NET Core 5 Web Application |
 | car-dealership-web-service | Contain the artifacts of SHAP web service and River web service |
 | jupyter_notebooks | Contain the details on model training and experimental results both in .ipynb format and .html format |
+| pictures | Contain the screenshots of plagiarism result and other visualizations |
+| reports | Contain the FYP II reports |
 | web-service-test | Contain the test inputs of the web services |
 
 ## Acknowledgement
