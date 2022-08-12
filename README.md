@@ -75,6 +75,8 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 2. The performance of the pre-trained ARF model is at least good or better than random forest model in offline settings.
 3. The performance of the ARF model was better than random forest model under the influence of drift.
 
+> Models are trained with normal data in offline settings and trained with drifted data in onine settings.
+
 <p align="justify">Furthermore, since the Tree SHAP algorithm from the SHAP library does not directly support the ARF model from the River library, the weights must be manually extracted into a dictionary.</p>
 
 ## Project demo
@@ -93,7 +95,7 @@ CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, Apr.
 I would like to thanks Ts Sun Teik Heng @ San Teik Heng for patiently guiding the project.
 
 ## Plagiarism check
-1. The image below shows the plagiarism result of the report.
+1. The image below shows the plagiarism result of the report. The full plagiarism result can be found inside the report.
 
 <img alt="Plagiarism result of the report" src="./pictures/plagiarism-check-1.png" width="700">
 
